@@ -45,3 +45,43 @@
 ## 局限与下一步
 - 非系统、不可复现、只读了标题与摘要片段;可能漏掉大量文献,也可能被搜索排序偏置。
 - 下一步:取得学术数据库访问(放开网络,或由作者导出),按 `SEARCH_STRINGS_v1.0.md` 做正式检索。在此之前,不得把本文件当作 PRISMA 结果引用。
+
+---
+
+# 增补 2(同日):扩大搜索,并尝试逐篇读全文
+
+## 全文读取结果:**0 篇成功**
+对第一批 10 篇(PMC9798138、CARNIVAL PMC6848167、MSB PMC7838823、Phoslink PMC11889353、CausalPath PMC8633371、CORNETO Nature、COSMOS bioRxiv、k-hop GAT bioRxiv、综述 PMC12703490、BMC 系统综述)用 WebFetch 读取,全部返回 `EGRESS_BLOCKED`。随后用 curl 探测了 14 个其他主机(pmc.ncbi、europepmc、arxiv、PMLR、Springer、OUP、ScienceDirect、GitHub、Cell、Bioconductor、saezlab.github.io、Frontiers、MDPI、JMLR),均 403。被拒主机清单:`www.ncbi.nlm.nih.gov`、`pmc.ncbi.nlm.nih.gov`、`eutils.ncbi.nlm.nih.gov`、`europepmc.org`、`www.ebi.ac.uk`、`www.nature.com`、`www.biorxiv.org`、`link.springer.com`、`academic.oup.com`、`www.sciencedirect.com`、`www.cell.com`、`arxiv.org`、`export.arxiv.org`、`proceedings.mlr.press`、`www.jmlr.org`、`bmcbioinformatics.biomedcentral.com`、`www.frontiersin.org`、`www.mdpi.com`、`bioconductor.org`、`saezlab.github.io`、`github.com`、`api.openalex.org`、`api.crossref.org`、`api.semanticscholar.org`。
+因此以下所有条目仍是**搜索片段层面的记录,未读全文**,不能填写数据提取表。
+
+## 新增候选(第二轮 8 个查询;仍为"未读")
+| 编号 | 条目 | 链接 | 与问题的相关性(仅据标题/片段) |
+|---|---|---|---|
+| N1 | CausalPath(Patterns 2021;含 CPTAC 11 癌种 1,110 患者的应用) | [Patterns](https://www.cell.com/patterns/fulltext/S2666-3899(21)00083-0) | Q1/Q2:先验加蛋白/磷酸化因果优先;片段称用于 CPTAC |
+| N2 | COSMOS(含 11 例 ccRCC 患者的应用) | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.15.603538.full.pdf) | Q1:跨层先验网络,样本量极小 |
+| N3 | k-hop graph attention 的信号网络推断 | [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.09.16.508281.full.pdf) | Q1:GNN 加多组学加先验 |
+| N4 | NEM-Tar:癌症调控网络概率图模型 | [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8100334/) | Q1/Q3:概率图模型 |
+| N5 | pyPARAGON:疾病网络构建,整合磷酸化数据与互作组 | [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11334722/) | Q1 |
+| N6 | 多层网络与有向随机游走做通路活性 | [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.07.22.163949.full.pdf) | Q1(结局预测取向) |
+| N7 | Inferencing bulk tumor and single-cell multi-omics regulatory networks(综述性) | [MDPI](https://www.mdpi.com/2073-4409/12/1/101) | 片段称:缺少时间序列是核心障碍;贝叶斯网络多为无环 → 与 Q3 相关(**未核实**) |
+| N8 | Patient-specific Boolean models(TCGA 前列腺,432-488 例) | [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9018074/) | Q1:布尔动力学,可含环 |
+| N9 | Patient-specific logic models(活检筛选) | [MSB](https://link.springer.com/article/10.15252/msb.20188664) | Q1/Q2:需要药物筛选数据,可能触及排除标准 |
+| N10 | Systematic analysis of somatic mutations impacting gene expression in 12 tumour types(trans 效应) | [Nat Commun](https://www.nature.com/articles/ncomms9554) | Q1:突变到表达,但可能无网络 |
+| N11 | DriverNet:突变对转录网络的影响 | [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4056374/) | Q1 |
+| N12 | Proteogenomic insights suggest druggable pathways in endometrial carcinoma(CPTAC-UCEC) | [Cancer Cell](https://www.sciencedirect.com/science/article/pii/S1535610823002477) | 与本项目数据直接相关;描述性,不一定为网络推断 |
+| N13 | Pan-cancer proteogenomic investigations identify post-transcriptional kinase targets | [Commun Biol](https://www.nature.com/articles/s42003-021-02636-7) | Q1 |
+| N14 | Deciphering the dark cancer phosphoproteome using machine-learned co-regulation | [Nat Commun](https://www.nature.com/articles/s41467-025-57993-2) | Q1/Q2 |
+| N15 | Comprehensive evaluation of phosphoproteomic-based kinase activity inference | [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12098709/) | Q2:基准 |
+| N16 | Causal Inference Methods to Integrate Omics and Complex Traits | [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8091955/) | Q3:综述 |
+| N17 | When Does GRN Inference Break?(单细胞诊断研究) | [arXiv](https://arxiv.org/html/2605.04930v1) | Q3:单细胞,可能超出纳入范围 |
+| N18 | 干预型因果结构学习比较;CausalBench | [bioRxiv](https://www.biorxiv.org/content/10.64898/2025.12.05.692565.full.pdf) | Q3:依赖扰动,按协议属"附表登记",非主分析 |
+
+按协议第 4 节,依赖扰动或时间序列的方法(Bicycle、CausalBench、N9、N18)不入主分析,但保留在附表。
+
+## 目前能说和不能说的
+- **能说**:搜索排名靠前的结果显示,"先验网络+多组学+因果推理"有许多成熟工具,至少包括 CARNIVAL、CausalPath、COSMOS、CORNETO、Phoslink;存在至少一篇关于生物学约束深度学习的系统综述和至少一篇关于该类因果分析的综述。
+- **不能说**:它们是否允许反馈环、是否在独立队列验证、是否陈述可识别性假设。这三点正是 Q1–Q3 的核心,**全部需要全文,当前读不到**。
+- 搜索片段里有两句相关的话,但都是搜索工具转述,未在原文核实:(a) 静态贝叶斯网络无法表示反馈环;(b) 含环有向图仅凭观察数据一般只能识别到马尔可夫等价类。
+
+## 解除阻塞所需
+任一:(1) 在环境设置里放开上面的被拒域名(至少 `pmc.ncbi.nlm.nih.gov`、`europepmc.org`、`www.biorxiv.org`、`arxiv.org`、`www.nature.com`);(2) 作者把关键论文的 PDF/全文文本放进 `research/papers/`;(3) 在有网络的新会话里继续,本文件和协议已在分支上。

@@ -1,0 +1,1555 @@
+{
+  "entities": [
+    {
+      "id": "node:c2ea2",
+      "label": "EGF",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:eced0",
+      "label": "PIP3",
+      "type": "Metabolite",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f0d66",
+      "label": "FOS",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:ac2f1",
+      "label": "EGFR",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c8d70",
+      "label": "GRB2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f1592",
+      "label": "SOS1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c293c",
+      "label": "SOS2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:a675b",
+      "label": "HRAS",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f1742",
+      "label": "KRAS",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:ae6a8",
+      "label": "NRAS",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c142f",
+      "label": "ARAF",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f4a39",
+      "label": "BRAF",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:daed8",
+      "label": "RAF1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:d68f8",
+      "label": "MAP2K1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:a0429",
+      "label": "MAP2K2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:a46da",
+      "label": "MAPK1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f2461",
+      "label": "MAPK3",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:e378e",
+      "label": "ELK1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c0083",
+      "label": "PTEN",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:b9a1e",
+      "label": "PIK3CA",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:eb752",
+      "label": "PIK3CB",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:fd1f8",
+      "label": "PIK3CD",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:eccc8",
+      "label": "PIK3R1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:a7df8",
+      "label": "PIK3R2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c2e60",
+      "label": "PIK3R3",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:da684",
+      "label": "PDPK1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:b27e7",
+      "label": "ILK",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:fe18c",
+      "label": "AKT1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f60fc",
+      "label": "AKT2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:d7392",
+      "label": "AKT3",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:d84ca",
+      "label": "FOXO3",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:e52ab",
+      "label": "BAD",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:fc0cc",
+      "label": "CASP9",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c65ba",
+      "label": "CDH1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:ac4f4",
+      "label": "CTNNB1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:dd15a",
+      "label": "CTNNA1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:dd6c6",
+      "label": "CTNNA2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:e4abc",
+      "label": "CTNNA3",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f1da7",
+      "label": "AXIN1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c100a",
+      "label": "AXIN2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:ac7eb",
+      "label": "APC",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:adc59",
+      "label": "APC2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:ec4cd",
+      "label": "GSK3B",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:e566c",
+      "label": "CTNNB1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:eb5a8",
+      "label": "TCF7",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:bcba6",
+      "label": "LEF1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f9637",
+      "label": "TCF7L1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c9bc4",
+      "label": "TCF7L2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:c08a6",
+      "label": "CCND1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:a38e0",
+      "label": "MYC",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:effe0",
+      "label": "ERBB2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:ac519",
+      "label": "BAX",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f5585",
+      "label": "CDKN1A",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:eb5fc",
+      "label": "DDB2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:ba247",
+      "label": "GADD45A",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f1b46",
+      "label": "GADD45B",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:db5a2",
+      "label": "GADD45G",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f5234",
+      "label": "BAK1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:b5045",
+      "label": "POLK",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:e054a",
+      "label": "TP53",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f2938",
+      "label": "FGFR2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f8c45",
+      "label": "FGF1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:e5f45",
+      "label": "FGF2",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f72a4",
+      "label": "FGFR1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:cd7cd",
+      "label": "FGFR3",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "node:f2e77",
+      "label": "CTNNB1",
+      "type": "GeneProduct",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:da8be",
+      "type": "complex",
+      "members": [
+        "node:f1da7",
+        "node:c100a",
+        "node:ac7eb",
+        "node:adc59",
+        "node:ec4cd"
+      ],
+      "label": "AXIN1 / AXIN2 / APC / APC2 / GSK3B",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:fffd8",
+      "type": "complex",
+      "members": [
+        "node:c65ba",
+        "node:ac4f4",
+        "node:dd15a",
+        "node:dd6c6",
+        "node:e4abc"
+      ],
+      "label": "CDH1 / CTNNB1 / CTNNA1 / CTNNA2 / CTNNA3",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:dc97b",
+      "type": "family_or_group",
+      "members": [
+        "node:a46da",
+        "node:f2461"
+      ],
+      "label": "MAPK1 / MAPK3",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:f57f5",
+      "type": "family_or_group",
+      "members": [
+        "node:d68f8",
+        "node:a0429"
+      ],
+      "label": "MAP2K1 / MAP2K2",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:fdb02",
+      "type": "family_or_group",
+      "members": [
+        "node:ac519",
+        "node:f5585",
+        "node:eb5fc",
+        "node:ba247",
+        "node:f1b46",
+        "node:db5a2",
+        "node:f5234",
+        "node:b5045"
+      ],
+      "label": "BAX / CDKN1A / DDB2 / GADD45A / GADD45B / GADD45G / BAK1 / POLK",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:ebc24",
+      "type": "family_or_group",
+      "members": [
+        "node:f8c45",
+        "node:e5f45"
+      ],
+      "label": "FGF1 / FGF2",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:c30c8",
+      "type": "family_or_group",
+      "members": [
+        "node:eb5a8",
+        "node:bcba6",
+        "node:f9637",
+        "node:c9bc4"
+      ],
+      "label": "TCF7 / LEF1 / TCF7L1 / TCF7L2",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:e0a5e",
+      "type": "complex",
+      "members": [
+        "node:b9a1e",
+        "node:eb752",
+        "node:fd1f8",
+        "node:eccc8",
+        "node:a7df8",
+        "node:c2e60"
+      ],
+      "label": "PIK3CA / PIK3CB / PIK3CD / PIK3R1 / PIK3R2 / PIK3R3",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:c9f54",
+      "type": "family_or_group",
+      "members": [
+        "node:f1592",
+        "node:c293c"
+      ],
+      "label": "SOS1 / SOS2",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:ca496",
+      "type": "family_or_group",
+      "members": [
+        "node:f2938",
+        "node:f72a4",
+        "node:cd7cd"
+      ],
+      "label": "FGFR2 / FGFR1 / FGFR3",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:ba81c",
+      "type": "family_or_group",
+      "members": [
+        "node:c08a6",
+        "node:a38e0"
+      ],
+      "label": "CCND1 / MYC",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:cad1f",
+      "type": "family_or_group",
+      "members": [
+        "node:c142f",
+        "node:f4a39",
+        "node:daed8"
+      ],
+      "label": "ARAF / BRAF / RAF1",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:b5e1d",
+      "type": "family_or_group",
+      "members": [
+        "node:a675b",
+        "node:f1742",
+        "node:ae6a8"
+      ],
+      "label": "HRAS / KRAS / NRAS",
+      "state_semantics": "requires_curation"
+    },
+    {
+      "id": "group:d7163",
+      "type": "family_or_group",
+      "members": [
+        "node:fe18c",
+        "node:f60fc",
+        "node:d7392"
+      ],
+      "label": "AKT1 / AKT2 / AKT3",
+      "state_semantics": "requires_curation"
+    }
+  ],
+  "relations": [
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id1ed66c8f",
+      "id": "interaction:id1ed66c8f",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:f57f5",
+      "source_graph_ref": "b507b",
+      "target": "group:dc97b",
+      "target_graph_ref": "b11ce",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "MAP2K1 / MAP2K2",
+      "target_label": "MAPK1 / MAPK3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id24a33b62",
+      "id": "interaction:id24a33b62",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:eced0",
+      "source_graph_ref": "eced0",
+      "target": "node:da684",
+      "target_graph_ref": "da684",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "PIP3",
+      "target_label": "PDPK1",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id27d2bd5a",
+      "id": "interaction:id27d2bd5a",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:ca496",
+      "source_graph_ref": "e0f76",
+      "target": "node:c8d70",
+      "target_graph_ref": "c8d70",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "FGFR2 / FGFR1 / FGFR3",
+      "target_label": "GRB2",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-conversion",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id28298151",
+      "id": "interaction:id28298151",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "node:e566c",
+      "source_graph_ref": "e566c",
+      "target": "node:ac4f4",
+      "target_graph_ref": "ac4f4",
+      "category": "binding_or_unsigned",
+      "source_label": "CTNNB1",
+      "target_label": "CTNNB1",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-transcription-translation",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id2c44be56",
+      "id": "interaction:id2c44be56",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:c30c8",
+      "source_graph_ref": "c7eb9",
+      "target": "group:ba81c",
+      "target_graph_ref": "e5d43",
+      "category": "transcription_to_abundance",
+      "source_label": "TCF7 / LEF1 / TCF7L1 / TCF7L2",
+      "target_label": "CCND1 / MYC",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-binding",
+      "directed": false,
+      "fully_resolved": true,
+      "graph_id": "id2dabf21e",
+      "id": "interaction:id2dabf21e",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "group:ebc24",
+      "source_graph_ref": "bd64c",
+      "target": "node:f2938",
+      "target_graph_ref": "f2938",
+      "category": "binding_or_unsigned",
+      "source_label": "FGF1 / FGF2",
+      "target_label": "FGFR2",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-transcription-translation",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id46d698d1",
+      "id": "interaction:id46d698d1",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:e378e",
+      "source_graph_ref": "e378e",
+      "target": "node:f0d66",
+      "target_graph_ref": "f0d66",
+      "category": "transcription_to_abundance",
+      "source_label": "ELK1",
+      "target_label": "FOS",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id481716d3",
+      "id": "interaction:id481716d3",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:ca496",
+      "source_graph_ref": "e0f76",
+      "target": "group:e0a5e",
+      "target_graph_ref": "c95fa",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "FGFR2 / FGFR1 / FGFR3",
+      "target_label": "PIK3CA / PIK3CB / PIK3CD / PIK3R1 / PIK3R2 / PIK3R3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id73ebe81b",
+      "id": "interaction:id73ebe81b",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:dc97b",
+      "source_graph_ref": "b11ce",
+      "target": "node:e378e",
+      "target_graph_ref": "e378e",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "MAPK1 / MAPK3",
+      "target_label": "ELK1",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id78efb7be",
+      "id": "interaction:id78efb7be",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "group:d7163",
+      "source_graph_ref": "f95d4",
+      "target": "node:e52ab",
+      "target_graph_ref": "e52ab",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "AKT1 / AKT2 / AKT3",
+      "target_label": "BAD",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id88044fdf",
+      "id": "interaction:id88044fdf",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:cad1f",
+      "source_graph_ref": "e96ab",
+      "target": "group:f57f5",
+      "target_graph_ref": "b507b",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "ARAF / BRAF / RAF1",
+      "target_label": "MAP2K1 / MAP2K2",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id885e28eb",
+      "id": "interaction:id885e28eb",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:f2e77",
+      "source_graph_ref": "f2e77",
+      "target": "group:c30c8",
+      "target_graph_ref": "c7eb9",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "CTNNB1",
+      "target_label": "TCF7 / LEF1 / TCF7L1 / TCF7L2",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-binding",
+      "directed": false,
+      "fully_resolved": true,
+      "graph_id": "id8b18432b",
+      "id": "interaction:id8b18432b",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "node:c2ea2",
+      "source_graph_ref": "c2ea2",
+      "target": "node:ac2f1",
+      "target_graph_ref": "ac2f1",
+      "category": "binding_or_unsigned",
+      "source_label": "EGF",
+      "target_label": "EGFR",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ida8fd2f63",
+      "id": "interaction:ida8fd2f63",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:ac2f1",
+      "source_graph_ref": "ac2f1",
+      "target": "node:c8d70",
+      "target_graph_ref": "c8d70",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "EGFR",
+      "target_label": "GRB2",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idb4a09427",
+      "id": "interaction:idb4a09427",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:e0a5e",
+      "source_graph_ref": "c95fa",
+      "target": "node:eced0",
+      "target_graph_ref": "eced0",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "PIK3CA / PIK3CB / PIK3CD / PIK3R1 / PIK3R2 / PIK3R3",
+      "target_label": "PIP3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idccfd7889",
+      "id": "interaction:idccfd7889",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "node:ec4cd",
+      "source_graph_ref": "ec4cd",
+      "target": "node:e566c",
+      "target_graph_ref": "e566c",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "GSK3B",
+      "target_label": "CTNNB1",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idd46687e1",
+      "id": "interaction:idd46687e1",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "node:c0083",
+      "source_graph_ref": "c0083",
+      "target": "node:eced0",
+      "target_graph_ref": "eced0",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "PTEN",
+      "target_label": "PIP3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ide3b8f43",
+      "id": "interaction:ide3b8f43",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:b27e7",
+      "source_graph_ref": "b27e7",
+      "target": "group:d7163",
+      "target_graph_ref": "f95d4",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "ILK",
+      "target_label": "AKT1 / AKT2 / AKT3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idecb3ea7e",
+      "id": "interaction:idecb3ea7e",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:da684",
+      "source_graph_ref": "da684",
+      "target": "group:d7163",
+      "target_graph_ref": "f95d4",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "PDPK1",
+      "target_label": "AKT1 / AKT2 / AKT3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ideffb182d",
+      "id": "interaction:ideffb182d",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:ac2f1",
+      "source_graph_ref": "ac2f1",
+      "target": "group:e0a5e",
+      "target_graph_ref": "c95fa",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "EGFR",
+      "target_label": "PIK3CA / PIK3CB / PIK3CD / PIK3R1 / PIK3R2 / PIK3R3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idf2720d51",
+      "id": "interaction:idf2720d51",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:e566c",
+      "source_graph_ref": "e566c",
+      "target": "node:f2e77",
+      "target_graph_ref": "f2e77",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "CTNNB1",
+      "target_label": "CTNNB1",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "a3a9d",
+      "id": "interaction:a3a9d",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:c8d70",
+      "source_graph_ref": "c8d70",
+      "target": "group:c9f54",
+      "target_graph_ref": "da03d",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "GRB2",
+      "target_label": "SOS1 / SOS2",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "acf70",
+      "id": "interaction:acf70",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:c9f54",
+      "source_graph_ref": "da03d",
+      "target": "group:b5e1d",
+      "target_graph_ref": "f8688",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "SOS1 / SOS2",
+      "target_label": "HRAS / KRAS / NRAS",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "d85b8",
+      "id": "interaction:d85b8",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:b5e1d",
+      "source_graph_ref": "f8688",
+      "target": "group:cad1f",
+      "target_graph_ref": "e96ab",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "HRAS / KRAS / NRAS",
+      "target_label": "ARAF / BRAF / RAF1",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "fd518",
+      "id": "interaction:fd518",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:eced0",
+      "source_graph_ref": "eced0",
+      "target": "node:b27e7",
+      "target_graph_ref": "b27e7",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "PIP3",
+      "target_label": "ILK",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ca619",
+      "id": "interaction:ca619",
+      "line_style": null,
+      "point_count": 3,
+      "sign": -1,
+      "source": "group:d7163",
+      "source_graph_ref": "f95d4",
+      "target": "node:fc0cc",
+      "target_graph_ref": "fc0cc",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "AKT1 / AKT2 / AKT3",
+      "target_label": "CASP9",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "c4a25",
+      "id": "interaction:c4a25",
+      "line_style": null,
+      "point_count": 3,
+      "sign": -1,
+      "source": "group:d7163",
+      "source_graph_ref": "f95d4",
+      "target": "node:d84ca",
+      "target_graph_ref": "d84ca",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "AKT1 / AKT2 / AKT3",
+      "target_label": "FOXO3",
+      "ready_for_training": false
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "a5e09",
+      "id": "interaction:a5e09",
+      "line_style": "Broken",
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:e054a",
+      "source_graph_ref": "e054a",
+      "target": "group:fdb02",
+      "target_graph_ref": "bc6ff",
+      "category": "signed_relation_mechanism_unresolved",
+      "source_label": "TP53",
+      "target_label": "BAX / CDKN1A / DDB2 / GADD45A / GADD45B / GADD45G / BAK1 / POLK",
+      "ready_for_training": false
+    }
+  ],
+  "membership": [
+    {
+      "member": "node:f1da7",
+      "container": "group:da8be",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:c100a",
+      "container": "group:da8be",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:ac7eb",
+      "container": "group:da8be",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:adc59",
+      "container": "group:da8be",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:ec4cd",
+      "container": "group:da8be",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:c65ba",
+      "container": "group:fffd8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:ac4f4",
+      "container": "group:fffd8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:dd15a",
+      "container": "group:fffd8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:dd6c6",
+      "container": "group:fffd8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:e4abc",
+      "container": "group:fffd8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:a46da",
+      "container": "group:dc97b",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f2461",
+      "container": "group:dc97b",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:d68f8",
+      "container": "group:f57f5",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:a0429",
+      "container": "group:f57f5",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:ac519",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f5585",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:eb5fc",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:ba247",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f1b46",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:db5a2",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f5234",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:b5045",
+      "container": "group:fdb02",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f8c45",
+      "container": "group:ebc24",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:e5f45",
+      "container": "group:ebc24",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:eb5a8",
+      "container": "group:c30c8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:bcba6",
+      "container": "group:c30c8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f9637",
+      "container": "group:c30c8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:c9bc4",
+      "container": "group:c30c8",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:b9a1e",
+      "container": "group:e0a5e",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:eb752",
+      "container": "group:e0a5e",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:fd1f8",
+      "container": "group:e0a5e",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:eccc8",
+      "container": "group:e0a5e",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:a7df8",
+      "container": "group:e0a5e",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:c2e60",
+      "container": "group:e0a5e",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f1592",
+      "container": "group:c9f54",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:c293c",
+      "container": "group:c9f54",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f2938",
+      "container": "group:ca496",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f72a4",
+      "container": "group:ca496",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:cd7cd",
+      "container": "group:ca496",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:c08a6",
+      "container": "group:ba81c",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:a38e0",
+      "container": "group:ba81c",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:c142f",
+      "container": "group:cad1f",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f4a39",
+      "container": "group:cad1f",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:daed8",
+      "container": "group:cad1f",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:a675b",
+      "container": "group:b5e1d",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f1742",
+      "container": "group:b5e1d",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:ae6a8",
+      "container": "group:b5e1d",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:fe18c",
+      "container": "group:d7163",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:f60fc",
+      "container": "group:d7163",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    },
+    {
+      "member": "node:d7392",
+      "container": "group:d7163",
+      "relation": "membership",
+      "sign": null,
+      "propagation": false
+    }
+  ],
+  "structural_reachability": {
+    "KRAS": {
+      "structural_reachable_entities": 16,
+      "labels": [
+        "ARAF",
+        "ARAF / BRAF / RAF1",
+        "BRAF",
+        "ELK1",
+        "FOS",
+        "HRAS",
+        "HRAS / KRAS / NRAS",
+        "KRAS",
+        "MAP2K1",
+        "MAP2K1 / MAP2K2",
+        "MAP2K2",
+        "MAPK1",
+        "MAPK1 / MAPK3",
+        "MAPK3",
+        "NRAS",
+        "RAF1"
+      ],
+      "warning": "Includes unsigned membership; this is NOT signed biological propagation reachability."
+    },
+    "CTNNB1": {
+      "structural_reachable_entities": 16,
+      "labels": [
+        "CCND1",
+        "CCND1 / MYC",
+        "CDH1",
+        "CDH1 / CTNNB1 / CTNNA1 / CTNNA2 / CTNNA3",
+        "CTNNA1",
+        "CTNNA2",
+        "CTNNA3",
+        "CTNNB1",
+        "LEF1",
+        "MYC",
+        "TCF7",
+        "TCF7 / LEF1 / TCF7L1 / TCF7L2",
+        "TCF7L1",
+        "TCF7L2"
+      ],
+      "warning": "Includes unsigned membership; this is NOT signed biological propagation reachability."
+    },
+    "PTEN": {
+      "structural_reachable_entities": 11,
+      "labels": [
+        "AKT1",
+        "AKT1 / AKT2 / AKT3",
+        "AKT2",
+        "AKT3",
+        "BAD",
+        "CASP9",
+        "FOXO3",
+        "ILK",
+        "PDPK1",
+        "PIP3",
+        "PTEN"
+      ],
+      "warning": "Includes unsigned membership; this is NOT signed biological propagation reachability."
+    },
+    "PIK3CA": {
+      "structural_reachable_entities": 17,
+      "labels": [
+        "AKT1",
+        "AKT1 / AKT2 / AKT3",
+        "AKT2",
+        "AKT3",
+        "BAD",
+        "CASP9",
+        "FOXO3",
+        "ILK",
+        "PDPK1",
+        "PIK3CA",
+        "PIK3CA / PIK3CB / PIK3CD / PIK3R1 / PIK3R2 / PIK3R3",
+        "PIK3CB",
+        "PIK3CD",
+        "PIK3R1",
+        "PIK3R2",
+        "PIK3R3",
+        "PIP3"
+      ],
+      "warning": "Includes unsigned membership; this is NOT signed biological propagation reachability."
+    },
+    "PIK3R1": {
+      "structural_reachable_entities": 17,
+      "labels": [
+        "AKT1",
+        "AKT1 / AKT2 / AKT3",
+        "AKT2",
+        "AKT3",
+        "BAD",
+        "CASP9",
+        "FOXO3",
+        "ILK",
+        "PDPK1",
+        "PIK3CA",
+        "PIK3CA / PIK3CB / PIK3CD / PIK3R1 / PIK3R2 / PIK3R3",
+        "PIK3CB",
+        "PIK3CD",
+        "PIK3R1",
+        "PIK3R2",
+        "PIK3R3",
+        "PIP3"
+      ],
+      "warning": "Includes unsigned membership; this is NOT signed biological propagation reachability."
+    },
+    "TP53": {
+      "structural_reachable_entities": 10,
+      "labels": [
+        "BAK1",
+        "BAX",
+        "BAX / CDKN1A / DDB2 / GADD45A / GADD45B / GADD45G / BAK1 / POLK",
+        "CDKN1A",
+        "DDB2",
+        "GADD45A",
+        "GADD45B",
+        "GADD45G",
+        "POLK",
+        "TP53"
+      ],
+      "warning": "Includes unsigned membership; this is NOT signed biological propagation reachability."
+    }
+  },
+  "summary": {
+    "entities": 80,
+    "complexes": 3,
+    "families_or_groups": 11,
+    "relations": 28,
+    "categories": {
+      "signed_relation_mechanism_unresolved": 23,
+      "binding_or_unsigned": 3,
+      "transcription_to_abundance": 2
+    }
+  },
+  "policy": "Original group entities retained. Membership is neither an activation edge nor independent member-level causal evidence. Structural reachability requires biochemical curation before training."
+}

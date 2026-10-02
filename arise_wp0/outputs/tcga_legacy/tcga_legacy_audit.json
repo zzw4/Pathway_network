@@ -1,0 +1,59 @@
+{
+  "counts": {
+    "clinical_primary_patients": 817,
+    "cna_patients": 816,
+    "mutation_patients": 817,
+    "rna_patients": 817,
+    "strict_four_modality_patients": 816,
+    "strict_with_complete_er_pr_her2": 703
+  },
+  "file_sha256": {
+    "clinical": "c253b2e94c907a77dcaa30ec4e0f7dbaad081dbfde965e601aa4bb369b93e348",
+    "cna": "c6d6854cf90676dcefee7621929526ee3c0964fecdfdd41f1e537406902f5889",
+    "mutation": "3a54faf5c9d4762e98db215a6e897d87a41803e7979eba318e445f56b93bfee5",
+    "rna": "bd97431b7c117a52c5ddd20dfffc0aa06cec762dc94f1c15e94214b06c4719dc"
+  },
+  "limitations": [
+    "Legacy cBioPortal/TCGA 2015-style package; not yet the frozen GDC-harmonized training set.",
+    "Counts establish marginal support, not propensity overlap or local effective sample size.",
+    "TP53 missense variants are intentionally not pooled with truncating/splice LOF.",
+    "Clinical HER2 uses IHC with FISH resolution where available; unresolved equivocal values are missing."
+  ],
+  "pik3ca_gof_by_tp53_lof_complete_receptors": {
+    "first0_second0": 442,
+    "first0_second1": 82,
+    "first1_second0": 168,
+    "first1_second1": 11
+  },
+  "pik3ca_gof_by_tp53_lof_in_strict": {
+    "first0_second0": 511,
+    "first0_second1": 95,
+    "first1_second0": 196,
+    "first1_second1": 14
+  },
+  "source_study_dir": "/mnt/primary/arise_wp0/raw/tcga_legacy",
+  "sources_in_strict": {
+    "CCND1_high_level_amp": 132,
+    "ERBB2_high_level_amp": 105,
+    "PIK3CA_GOF_hotspot": 210,
+    "TP53_LOF": 109,
+    "TP53_missense_separate": 171
+  },
+  "strict_receptor_availability": {
+    "er": {
+      "Missing": 41,
+      "Negative": 175,
+      "Positive": 600
+    },
+    "her2": {
+      "Missing": 108,
+      "Negative": 563,
+      "Positive": 145
+    },
+    "pr": {
+      "Missing": 44,
+      "Negative": 251,
+      "Positive": 521
+    }
+  }
+}

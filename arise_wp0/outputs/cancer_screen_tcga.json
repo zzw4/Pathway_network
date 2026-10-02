@@ -1,0 +1,1708 @@
+{
+  "limitations": [
+    "This first pass uses candidate-gene nonsilent mutation support, not frozen functional classes.",
+    "Passing mutation four-cell counts does not establish local covariate overlap or signalling separability.",
+    "CPTAC carrier counts and non-RNA intermediate coverage are separate mandatory gates."
+  ],
+  "results": {
+    "BRCA": {
+      "cancer": "BRCA",
+      "candidate_frequencies": {
+        "AKT1": {
+          "any_nonsilent_fraction": 0.024907749077490774,
+          "any_nonsilent_n": 27,
+          "hotspot_n": 0,
+          "lof_n": 0
+        },
+        "CDH1": {
+          "any_nonsilent_fraction": 0.11992619926199262,
+          "any_nonsilent_n": 130,
+          "hotspot_n": 0,
+          "lof_n": 109
+        },
+        "ERBB2": {
+          "any_nonsilent_fraction": 0.027675276752767528,
+          "any_nonsilent_n": 30,
+          "hotspot_n": 0,
+          "lof_n": 2
+        },
+        "GATA3": {
+          "any_nonsilent_fraction": 0.11715867158671586,
+          "any_nonsilent_n": 127,
+          "hotspot_n": 0,
+          "lof_n": 116
+        },
+        "MAP3K1": {
+          "any_nonsilent_fraction": 0.08210332103321033,
+          "any_nonsilent_n": 89,
+          "hotspot_n": 0,
+          "lof_n": 73
+        },
+        "PIK3CA": {
+          "any_nonsilent_fraction": 0.32011070110701106,
+          "any_nonsilent_n": 347,
+          "hotspot_n": 0,
+          "lof_n": 0
+        },
+        "PTEN": {
+          "any_nonsilent_fraction": 0.05350553505535055,
+          "any_nonsilent_n": 58,
+          "hotspot_n": 0,
+          "lof_n": 39
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.32011070110701106,
+          "any_nonsilent_n": 347,
+          "hotspot_n": 0,
+          "lof_n": 131
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 4,
+      "primary_patients": 1084,
+      "primary_samples": 1084,
+      "study": "brca_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 471,
+            "01": 266,
+            "10": 266,
+            "11": 81
+          },
+          "first": "PIK3CA",
+          "min_cell": 81,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 670,
+            "01": 67,
+            "10": 284,
+            "11": 63
+          },
+          "first": "PIK3CA",
+          "min_cell": 63,
+          "passes_20_each": true,
+          "second": "CDH1"
+        },
+        {
+          "cells": {
+            "00": 693,
+            "01": 44,
+            "10": 302,
+            "11": 45
+          },
+          "first": "PIK3CA",
+          "min_cell": 44,
+          "passes_20_each": true,
+          "second": "MAP3K1"
+        },
+        {
+          "cells": {
+            "00": 640,
+            "01": 97,
+            "10": 317,
+            "11": 30
+          },
+          "first": "PIK3CA",
+          "min_cell": 30,
+          "passes_20_each": true,
+          "second": "GATA3"
+        },
+        {
+          "cells": {
+            "00": 698,
+            "01": 39,
+            "10": 328,
+            "11": 19
+          },
+          "first": "PIK3CA",
+          "min_cell": 19,
+          "passes_20_each": false,
+          "second": "PTEN"
+        },
+        {
+          "cells": {
+            "00": 696,
+            "01": 41,
+            "10": 330,
+            "11": 17
+          },
+          "first": "TP53",
+          "min_cell": 17,
+          "passes_20_each": false,
+          "second": "PTEN"
+        },
+        {
+          "cells": {
+            "00": 720,
+            "01": 17,
+            "10": 334,
+            "11": 13
+          },
+          "first": "PIK3CA",
+          "min_cell": 13,
+          "passes_20_each": false,
+          "second": "ERBB2"
+        },
+        {
+          "cells": {
+            "00": 937,
+            "01": 17,
+            "10": 117,
+            "11": 13
+          },
+          "first": "CDH1",
+          "min_cell": 13,
+          "passes_20_each": false,
+          "second": "ERBB2"
+        },
+        {
+          "cells": {
+            "00": 908,
+            "01": 46,
+            "10": 118,
+            "11": 12
+          },
+          "first": "CDH1",
+          "min_cell": 12,
+          "passes_20_each": false,
+          "second": "PTEN"
+        },
+        {
+          "cells": {
+            "00": 621,
+            "01": 116,
+            "10": 336,
+            "11": 11
+          },
+          "first": "TP53",
+          "min_cell": 11,
+          "passes_20_each": false,
+          "second": "GATA3"
+        }
+      ]
+    },
+    "CCRCC": {
+      "cancer": "CCRCC",
+      "candidate_frequencies": {
+        "BAP1": {
+          "any_nonsilent_fraction": 0.07421875,
+          "any_nonsilent_n": 38,
+          "hotspot_n": 0,
+          "lof_n": 25
+        },
+        "MTOR": {
+          "any_nonsilent_fraction": 0.060546875,
+          "any_nonsilent_n": 31,
+          "hotspot_n": 0,
+          "lof_n": 0
+        },
+        "PBRM1": {
+          "any_nonsilent_fraction": 0.283203125,
+          "any_nonsilent_n": 145,
+          "hotspot_n": 0,
+          "lof_n": 124
+        },
+        "SETD2": {
+          "any_nonsilent_fraction": 0.095703125,
+          "any_nonsilent_n": 49,
+          "hotspot_n": 0,
+          "lof_n": 35
+        },
+        "VHL": {
+          "any_nonsilent_fraction": 0.32421875,
+          "any_nonsilent_n": 166,
+          "hotspot_n": 0,
+          "lof_n": 105
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 2,
+      "primary_patients": 512,
+      "primary_samples": 512,
+      "study": "kirc_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 280,
+            "01": 66,
+            "10": 87,
+            "11": 79
+          },
+          "first": "VHL",
+          "min_cell": 66,
+          "passes_20_each": true,
+          "second": "PBRM1"
+        },
+        {
+          "cells": {
+            "00": 323,
+            "01": 23,
+            "10": 140,
+            "11": 26
+          },
+          "first": "VHL",
+          "min_cell": 23,
+          "passes_20_each": true,
+          "second": "SETD2"
+        },
+        {
+          "cells": {
+            "00": 349,
+            "01": 18,
+            "10": 114,
+            "11": 31
+          },
+          "first": "PBRM1",
+          "min_cell": 18,
+          "passes_20_each": false,
+          "second": "SETD2"
+        },
+        {
+          "cells": {
+            "00": 329,
+            "01": 17,
+            "10": 145,
+            "11": 21
+          },
+          "first": "VHL",
+          "min_cell": 17,
+          "passes_20_each": false,
+          "second": "BAP1"
+        },
+        {
+          "cells": {
+            "00": 353,
+            "01": 14,
+            "10": 128,
+            "11": 17
+          },
+          "first": "PBRM1",
+          "min_cell": 14,
+          "passes_20_each": false,
+          "second": "MTOR"
+        },
+        {
+          "cells": {
+            "00": 328,
+            "01": 18,
+            "10": 153,
+            "11": 13
+          },
+          "first": "VHL",
+          "min_cell": 13,
+          "passes_20_each": false,
+          "second": "MTOR"
+        },
+        {
+          "cells": {
+            "00": 337,
+            "01": 30,
+            "10": 137,
+            "11": 8
+          },
+          "first": "PBRM1",
+          "min_cell": 8,
+          "passes_20_each": false,
+          "second": "BAP1"
+        },
+        {
+          "cells": {
+            "00": 430,
+            "01": 33,
+            "10": 44,
+            "11": 5
+          },
+          "first": "SETD2",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "BAP1"
+        },
+        {
+          "cells": {
+            "00": 435,
+            "01": 28,
+            "10": 46,
+            "11": 3
+          },
+          "first": "SETD2",
+          "min_cell": 3,
+          "passes_20_each": false,
+          "second": "MTOR"
+        },
+        {
+          "cells": {
+            "00": 446,
+            "01": 28,
+            "10": 35,
+            "11": 3
+          },
+          "first": "BAP1",
+          "min_cell": 3,
+          "passes_20_each": false,
+          "second": "MTOR"
+        }
+      ]
+    },
+    "COADREAD": {
+      "cancer": "COADREAD",
+      "candidate_frequencies": {
+        "APC": {
+          "any_nonsilent_fraction": 0.6515151515151515,
+          "any_nonsilent_n": 387,
+          "hotspot_n": 0,
+          "lof_n": 376
+        },
+        "BRAF": {
+          "any_nonsilent_fraction": 0.10437710437710437,
+          "any_nonsilent_n": 62,
+          "hotspot_n": 0,
+          "lof_n": 6
+        },
+        "KRAS": {
+          "any_nonsilent_fraction": 0.367003367003367,
+          "any_nonsilent_n": 218,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "PIK3CA": {
+          "any_nonsilent_fraction": 0.2474747474747475,
+          "any_nonsilent_n": 147,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "SMAD4": {
+          "any_nonsilent_fraction": 0.11447811447811448,
+          "any_nonsilent_n": 68,
+          "hotspot_n": 0,
+          "lof_n": 18
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.5286195286195287,
+          "any_nonsilent_n": 314,
+          "hotspot_n": 0,
+          "lof_n": 89
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 12,
+      "primary_patients": 594,
+      "primary_samples": 594,
+      "study": "coadread_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 187,
+            "01": 189,
+            "10": 93,
+            "11": 125
+          },
+          "first": "KRAS",
+          "min_cell": 93,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 199,
+            "01": 81,
+            "10": 248,
+            "11": 66
+          },
+          "first": "TP53",
+          "min_cell": 66,
+          "passes_20_each": true,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 312,
+            "01": 64,
+            "10": 135,
+            "11": 83
+          },
+          "first": "KRAS",
+          "min_cell": 64,
+          "passes_20_each": true,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 155,
+            "01": 52,
+            "10": 125,
+            "11": 262
+          },
+          "first": "APC",
+          "min_cell": 52,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 171,
+            "01": 36,
+            "10": 205,
+            "11": 182
+          },
+          "first": "APC",
+          "min_cell": 36,
+          "passes_20_each": true,
+          "second": "KRAS"
+        },
+        {
+          "cells": {
+            "00": 173,
+            "01": 34,
+            "10": 274,
+            "11": 113
+          },
+          "first": "APC",
+          "min_cell": 34,
+          "passes_20_each": true,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 342,
+            "01": 34,
+            "10": 184,
+            "11": 34
+          },
+          "first": "KRAS",
+          "min_cell": 34,
+          "passes_20_each": true,
+          "second": "SMAD4"
+        },
+        {
+          "cells": {
+            "00": 247,
+            "01": 33,
+            "10": 279,
+            "11": 35
+          },
+          "first": "TP53",
+          "min_cell": 33,
+          "passes_20_each": true,
+          "second": "SMAD4"
+        },
+        {
+          "cells": {
+            "00": 408,
+            "01": 39,
+            "10": 118,
+            "11": 29
+          },
+          "first": "PIK3CA",
+          "min_cell": 29,
+          "passes_20_each": true,
+          "second": "SMAD4"
+        },
+        {
+          "cells": {
+            "00": 243,
+            "01": 37,
+            "10": 289,
+            "11": 25
+          },
+          "first": "TP53",
+          "min_cell": 25,
+          "passes_20_each": true,
+          "second": "BRAF"
+        }
+      ]
+    },
+    "GBM": {
+      "cancer": "GBM",
+      "candidate_frequencies": {
+        "EGFR": {
+          "any_nonsilent_fraction": 0.15555555555555556,
+          "any_nonsilent_n": 91,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "IDH1": {
+          "any_nonsilent_fraction": 0.041025641025641026,
+          "any_nonsilent_n": 24,
+          "hotspot_n": 0,
+          "lof_n": 0
+        },
+        "NF1": {
+          "any_nonsilent_fraction": 0.07863247863247863,
+          "any_nonsilent_n": 46,
+          "hotspot_n": 0,
+          "lof_n": 34
+        },
+        "PIK3CA": {
+          "any_nonsilent_fraction": 0.06153846153846154,
+          "any_nonsilent_n": 36,
+          "hotspot_n": 0,
+          "lof_n": 4
+        },
+        "PTEN": {
+          "any_nonsilent_fraction": 0.2205128205128205,
+          "any_nonsilent_n": 129,
+          "hotspot_n": 0,
+          "lof_n": 60
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.20683760683760682,
+          "any_nonsilent_n": 121,
+          "hotspot_n": 0,
+          "lof_n": 28
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 3,
+      "primary_patients": 585,
+      "primary_samples": 585,
+      "study": "gbm_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 381,
+            "01": 75,
+            "10": 83,
+            "11": 46
+          },
+          "first": "PTEN",
+          "min_cell": 46,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 398,
+            "01": 96,
+            "10": 58,
+            "11": 33
+          },
+          "first": "EGFR",
+          "min_cell": 33,
+          "passes_20_each": true,
+          "second": "PTEN"
+        },
+        {
+          "cells": {
+            "00": 394,
+            "01": 100,
+            "10": 70,
+            "11": 21
+          },
+          "first": "EGFR",
+          "min_cell": 21,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 429,
+            "01": 27,
+            "10": 110,
+            "11": 19
+          },
+          "first": "PTEN",
+          "min_cell": 19,
+          "passes_20_each": false,
+          "second": "NF1"
+        },
+        {
+          "cells": {
+            "00": 435,
+            "01": 104,
+            "10": 29,
+            "11": 17
+          },
+          "first": "NF1",
+          "min_cell": 17,
+          "passes_20_each": false,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 441,
+            "01": 23,
+            "10": 108,
+            "11": 13
+          },
+          "first": "TP53",
+          "min_cell": 13,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 466,
+            "01": 28,
+            "10": 83,
+            "11": 8
+          },
+          "first": "EGFR",
+          "min_cell": 8,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 454,
+            "01": 40,
+            "10": 85,
+            "11": 6
+          },
+          "first": "EGFR",
+          "min_cell": 6,
+          "passes_20_each": false,
+          "second": "NF1"
+        },
+        {
+          "cells": {
+            "00": 425,
+            "01": 31,
+            "10": 124,
+            "11": 5
+          },
+          "first": "PTEN",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 508,
+            "01": 31,
+            "10": 41,
+            "11": 5
+          },
+          "first": "NF1",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        }
+      ]
+    },
+    "HNSC": {
+      "cancer": "HNSC",
+      "candidate_frequencies": {
+        "CASP8": {
+          "any_nonsilent_fraction": 0.10516252390057361,
+          "any_nonsilent_n": 55,
+          "hotspot_n": 0,
+          "lof_n": 29
+        },
+        "FAT1": {
+          "any_nonsilent_fraction": 0.21223709369024857,
+          "any_nonsilent_n": 111,
+          "hotspot_n": 0,
+          "lof_n": 92
+        },
+        "HRAS": {
+          "any_nonsilent_fraction": 0.05927342256214149,
+          "any_nonsilent_n": 31,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "NOTCH1": {
+          "any_nonsilent_fraction": 0.1682600382409178,
+          "any_nonsilent_n": 88,
+          "hotspot_n": 0,
+          "lof_n": 37
+        },
+        "PIK3CA": {
+          "any_nonsilent_fraction": 0.17208413001912046,
+          "any_nonsilent_n": 90,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.6826003824091779,
+          "any_nonsilent_n": 357,
+          "hotspot_n": 0,
+          "lof_n": 157
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 7,
+      "primary_patients": 523,
+      "primary_samples": 523,
+      "study": "hnsc_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 130,
+            "01": 36,
+            "10": 303,
+            "11": 54
+          },
+          "first": "TP53",
+          "min_cell": 36,
+          "passes_20_each": true,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 357,
+            "01": 55,
+            "10": 78,
+            "11": 33
+          },
+          "first": "FAT1",
+          "min_cell": 33,
+          "passes_20_each": true,
+          "second": "NOTCH1"
+        },
+        {
+          "cells": {
+            "00": 137,
+            "01": 29,
+            "10": 298,
+            "11": 59
+          },
+          "first": "TP53",
+          "min_cell": 29,
+          "passes_20_each": true,
+          "second": "NOTCH1"
+        },
+        {
+          "cells": {
+            "00": 383,
+            "01": 29,
+            "10": 85,
+            "11": 26
+          },
+          "first": "FAT1",
+          "min_cell": 26,
+          "passes_20_each": true,
+          "second": "CASP8"
+        },
+        {
+          "cells": {
+            "00": 141,
+            "01": 25,
+            "10": 271,
+            "11": 86
+          },
+          "first": "TP53",
+          "min_cell": 25,
+          "passes_20_each": true,
+          "second": "FAT1"
+        },
+        {
+          "cells": {
+            "00": 142,
+            "01": 24,
+            "10": 326,
+            "11": 31
+          },
+          "first": "TP53",
+          "min_cell": 24,
+          "passes_20_each": true,
+          "second": "CASP8"
+        },
+        {
+          "cells": {
+            "00": 346,
+            "01": 87,
+            "10": 66,
+            "11": 24
+          },
+          "first": "PIK3CA",
+          "min_cell": 24,
+          "passes_20_each": true,
+          "second": "FAT1"
+        },
+        {
+          "cells": {
+            "00": 364,
+            "01": 69,
+            "10": 71,
+            "11": 19
+          },
+          "first": "PIK3CA",
+          "min_cell": 19,
+          "passes_20_each": false,
+          "second": "NOTCH1"
+        },
+        {
+          "cells": {
+            "00": 399,
+            "01": 36,
+            "10": 69,
+            "11": 19
+          },
+          "first": "NOTCH1",
+          "min_cell": 19,
+          "passes_20_each": false,
+          "second": "CASP8"
+        },
+        {
+          "cells": {
+            "00": 395,
+            "01": 17,
+            "10": 97,
+            "11": 14
+          },
+          "first": "FAT1",
+          "min_cell": 14,
+          "passes_20_each": false,
+          "second": "HRAS"
+        }
+      ]
+    },
+    "LSCC": {
+      "cancer": "LSCC",
+      "candidate_frequencies": {
+        "CDKN2A": {
+          "any_nonsilent_fraction": 0.14989733059548255,
+          "any_nonsilent_n": 73,
+          "hotspot_n": 0,
+          "lof_n": 41
+        },
+        "KEAP1": {
+          "any_nonsilent_fraction": 0.10061601642710473,
+          "any_nonsilent_n": 49,
+          "hotspot_n": 0,
+          "lof_n": 3
+        },
+        "NFE2L2": {
+          "any_nonsilent_fraction": 0.14784394250513347,
+          "any_nonsilent_n": 72,
+          "hotspot_n": 0,
+          "lof_n": 0
+        },
+        "NOTCH1": {
+          "any_nonsilent_fraction": 0.07802874743326489,
+          "any_nonsilent_n": 38,
+          "hotspot_n": 0,
+          "lof_n": 21
+        },
+        "PIK3CA": {
+          "any_nonsilent_fraction": 0.10882956878850103,
+          "any_nonsilent_n": 53,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "PTEN": {
+          "any_nonsilent_fraction": 0.10472279260780287,
+          "any_nonsilent_n": 51,
+          "hotspot_n": 0,
+          "lof_n": 31
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.8295687885010267,
+          "any_nonsilent_n": 404,
+          "hotspot_n": 0,
+          "lof_n": 137
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 0,
+      "primary_patients": 487,
+      "primary_samples": 487,
+      "study": "lusc_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 357,
+            "01": 58,
+            "10": 57,
+            "11": 15
+          },
+          "first": "NFE2L2",
+          "min_cell": 15,
+          "passes_20_each": false,
+          "second": "CDKN2A"
+        },
+        {
+          "cells": {
+            "00": 372,
+            "01": 43,
+            "10": 62,
+            "11": 10
+          },
+          "first": "NFE2L2",
+          "min_cell": 10,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 74,
+            "01": 9,
+            "10": 341,
+            "11": 63
+          },
+          "first": "TP53",
+          "min_cell": 9,
+          "passes_20_each": false,
+          "second": "NFE2L2"
+        },
+        {
+          "cells": {
+            "00": 373,
+            "01": 65,
+            "10": 41,
+            "11": 8
+          },
+          "first": "KEAP1",
+          "min_cell": 8,
+          "passes_20_each": false,
+          "second": "CDKN2A"
+        },
+        {
+          "cells": {
+            "00": 76,
+            "01": 7,
+            "10": 362,
+            "11": 42
+          },
+          "first": "TP53",
+          "min_cell": 7,
+          "passes_20_each": false,
+          "second": "KEAP1"
+        },
+        {
+          "cells": {
+            "00": 77,
+            "01": 6,
+            "10": 357,
+            "11": 47
+          },
+          "first": "TP53",
+          "min_cell": 6,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 77,
+            "01": 6,
+            "10": 359,
+            "11": 45
+          },
+          "first": "TP53",
+          "min_cell": 6,
+          "passes_20_each": false,
+          "second": "PTEN"
+        },
+        {
+          "cells": {
+            "00": 389,
+            "01": 45,
+            "10": 47,
+            "11": 6
+          },
+          "first": "PIK3CA",
+          "min_cell": 6,
+          "passes_20_each": false,
+          "second": "PTEN"
+        },
+        {
+          "cells": {
+            "00": 402,
+            "01": 32,
+            "10": 47,
+            "11": 6
+          },
+          "first": "PIK3CA",
+          "min_cell": 6,
+          "passes_20_each": false,
+          "second": "NOTCH1"
+        },
+        {
+          "cells": {
+            "00": 78,
+            "01": 5,
+            "10": 336,
+            "11": 68
+          },
+          "first": "TP53",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "CDKN2A"
+        }
+      ]
+    },
+    "LUAD": {
+      "cancer": "LUAD",
+      "candidate_frequencies": {
+        "BRAF": {
+          "any_nonsilent_fraction": 0.07243816254416961,
+          "any_nonsilent_n": 41,
+          "hotspot_n": 0,
+          "lof_n": 3
+        },
+        "EGFR": {
+          "any_nonsilent_fraction": 0.12367491166077739,
+          "any_nonsilent_n": 70,
+          "hotspot_n": 0,
+          "lof_n": 3
+        },
+        "KEAP1": {
+          "any_nonsilent_fraction": 0.18021201413427562,
+          "any_nonsilent_n": 102,
+          "hotspot_n": 0,
+          "lof_n": 22
+        },
+        "KRAS": {
+          "any_nonsilent_fraction": 0.2968197879858657,
+          "any_nonsilent_n": 168,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "NF1": {
+          "any_nonsilent_fraction": 0.1166077738515901,
+          "any_nonsilent_n": 66,
+          "hotspot_n": 0,
+          "lof_n": 35
+        },
+        "STK11": {
+          "any_nonsilent_fraction": 0.13250883392226148,
+          "any_nonsilent_n": 75,
+          "hotspot_n": 0,
+          "lof_n": 53
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.5212014134275619,
+          "any_nonsilent_n": 295,
+          "hotspot_n": 0,
+          "lof_n": 104
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 7,
+      "primary_patients": 566,
+      "primary_samples": 566,
+      "study": "luad_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 165,
+            "01": 233,
+            "10": 106,
+            "11": 62
+          },
+          "first": "KRAS",
+          "min_cell": 62,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 219,
+            "01": 245,
+            "10": 52,
+            "11": 50
+          },
+          "first": "KEAP1",
+          "min_cell": 50,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 361,
+            "01": 37,
+            "10": 130,
+            "11": 38
+          },
+          "first": "KRAS",
+          "min_cell": 37,
+          "passes_20_each": true,
+          "second": "STK11"
+        },
+        {
+          "cells": {
+            "00": 331,
+            "01": 67,
+            "10": 133,
+            "11": 35
+          },
+          "first": "KRAS",
+          "min_cell": 35,
+          "passes_20_each": true,
+          "second": "KEAP1"
+        },
+        {
+          "cells": {
+            "00": 224,
+            "01": 267,
+            "10": 47,
+            "11": 28
+          },
+          "first": "STK11",
+          "min_cell": 28,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 415,
+            "01": 76,
+            "10": 49,
+            "11": 26
+          },
+          "first": "STK11",
+          "min_cell": 26,
+          "passes_20_each": true,
+          "second": "KEAP1"
+        },
+        {
+          "cells": {
+            "00": 247,
+            "01": 249,
+            "10": 24,
+            "11": 46
+          },
+          "first": "EGFR",
+          "min_cell": 24,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 254,
+            "01": 17,
+            "10": 246,
+            "11": 49
+          },
+          "first": "TP53",
+          "min_cell": 17,
+          "passes_20_each": false,
+          "second": "NF1"
+        },
+        {
+          "cells": {
+            "00": 256,
+            "01": 15,
+            "10": 269,
+            "11": 26
+          },
+          "first": "TP53",
+          "min_cell": 15,
+          "passes_20_each": false,
+          "second": "BRAF"
+        },
+        {
+          "cells": {
+            "00": 408,
+            "01": 56,
+            "10": 92,
+            "11": 10
+          },
+          "first": "KEAP1",
+          "min_cell": 10,
+          "passes_20_each": false,
+          "second": "NF1"
+        }
+      ]
+    },
+    "OV": {
+      "cancer": "OV",
+      "candidate_frequencies": {
+        "BRCA1": {
+          "any_nonsilent_fraction": 0.030874785591766724,
+          "any_nonsilent_n": 18,
+          "hotspot_n": 0,
+          "lof_n": 16
+        },
+        "BRCA2": {
+          "any_nonsilent_fraction": 0.025728987993138937,
+          "any_nonsilent_n": 15,
+          "hotspot_n": 0,
+          "lof_n": 8
+        },
+        "NF1": {
+          "any_nonsilent_fraction": 0.051457975986277875,
+          "any_nonsilent_n": 30,
+          "hotspot_n": 0,
+          "lof_n": 23
+        },
+        "PIK3CA": {
+          "any_nonsilent_fraction": 0.0137221269296741,
+          "any_nonsilent_n": 8,
+          "hotspot_n": 0,
+          "lof_n": 0
+        },
+        "RB1": {
+          "any_nonsilent_fraction": 0.0274442538593482,
+          "any_nonsilent_n": 16,
+          "hotspot_n": 0,
+          "lof_n": 12
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.6380789022298456,
+          "any_nonsilent_n": 372,
+          "hotspot_n": 0,
+          "lof_n": 137
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 0,
+      "primary_patients": 583,
+      "primary_samples": 583,
+      "study": "ov_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 539,
+            "01": 26,
+            "10": 14,
+            "11": 4
+          },
+          "first": "BRCA1",
+          "min_cell": 4,
+          "passes_20_each": false,
+          "second": "NF1"
+        },
+        {
+          "cells": {
+            "00": 208,
+            "01": 3,
+            "10": 359,
+            "11": 13
+          },
+          "first": "TP53",
+          "min_cell": 3,
+          "passes_20_each": false,
+          "second": "RB1"
+        },
+        {
+          "cells": {
+            "00": 210,
+            "01": 1,
+            "10": 358,
+            "11": 14
+          },
+          "first": "TP53",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "BRCA2"
+        },
+        {
+          "cells": {
+            "00": 210,
+            "01": 1,
+            "10": 343,
+            "11": 29
+          },
+          "first": "TP53",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "NF1"
+        },
+        {
+          "cells": {
+            "00": 550,
+            "01": 15,
+            "10": 17,
+            "11": 1
+          },
+          "first": "BRCA1",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "RB1"
+        },
+        {
+          "cells": {
+            "00": 539,
+            "01": 29,
+            "10": 14,
+            "11": 1
+          },
+          "first": "BRCA2",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "NF1"
+        },
+        {
+          "cells": {
+            "00": 561,
+            "01": 7,
+            "10": 14,
+            "11": 1
+          },
+          "first": "BRCA2",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 538,
+            "01": 15,
+            "10": 29,
+            "11": 1
+          },
+          "first": "NF1",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "RB1"
+        },
+        {
+          "cells": {
+            "00": 211,
+            "01": 0,
+            "10": 354,
+            "11": 18
+          },
+          "first": "TP53",
+          "min_cell": 0,
+          "passes_20_each": false,
+          "second": "BRCA1"
+        },
+        {
+          "cells": {
+            "00": 211,
+            "01": 0,
+            "10": 364,
+            "11": 8
+          },
+          "first": "TP53",
+          "min_cell": 0,
+          "passes_20_each": false,
+          "second": "PIK3CA"
+        }
+      ]
+    },
+    "PDAC": {
+      "cancer": "PDAC",
+      "candidate_frequencies": {
+        "ARID1A": {
+          "any_nonsilent_fraction": 0.04891304347826087,
+          "any_nonsilent_n": 9,
+          "hotspot_n": 0,
+          "lof_n": 9
+        },
+        "CDKN2A": {
+          "any_nonsilent_fraction": 0.19021739130434784,
+          "any_nonsilent_n": 35,
+          "hotspot_n": 0,
+          "lof_n": 22
+        },
+        "KRAS": {
+          "any_nonsilent_fraction": 0.6358695652173914,
+          "any_nonsilent_n": 117,
+          "hotspot_n": 0,
+          "lof_n": 0
+        },
+        "RNF43": {
+          "any_nonsilent_fraction": 0.059782608695652176,
+          "any_nonsilent_n": 11,
+          "hotspot_n": 0,
+          "lof_n": 8
+        },
+        "SMAD4": {
+          "any_nonsilent_fraction": 0.20108695652173914,
+          "any_nonsilent_n": 37,
+          "hotspot_n": 0,
+          "lof_n": 22
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.5815217391304348,
+          "any_nonsilent_n": 107,
+          "hotspot_n": 0,
+          "lof_n": 40
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 0,
+      "primary_patients": 184,
+      "primary_samples": 184,
+      "study": "paad_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 50,
+            "01": 17,
+            "10": 27,
+            "11": 90
+          },
+          "first": "KRAS",
+          "min_cell": 17,
+          "passes_20_each": false,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 63,
+            "01": 14,
+            "10": 84,
+            "11": 23
+          },
+          "first": "TP53",
+          "min_cell": 14,
+          "passes_20_each": false,
+          "second": "SMAD4"
+        },
+        {
+          "cells": {
+            "00": 119,
+            "01": 28,
+            "10": 30,
+            "11": 7
+          },
+          "first": "SMAD4",
+          "min_cell": 7,
+          "passes_20_each": false,
+          "second": "CDKN2A"
+        },
+        {
+          "cells": {
+            "00": 71,
+            "01": 6,
+            "10": 102,
+            "11": 5
+          },
+          "first": "TP53",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "RNF43"
+        },
+        {
+          "cells": {
+            "00": 142,
+            "01": 5,
+            "10": 31,
+            "11": 6
+          },
+          "first": "SMAD4",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "RNF43"
+        },
+        {
+          "cells": {
+            "00": 63,
+            "01": 4,
+            "10": 84,
+            "11": 33
+          },
+          "first": "KRAS",
+          "min_cell": 4,
+          "passes_20_each": false,
+          "second": "SMAD4"
+        },
+        {
+          "cells": {
+            "00": 73,
+            "01": 4,
+            "10": 76,
+            "11": 31
+          },
+          "first": "TP53",
+          "min_cell": 4,
+          "passes_20_each": false,
+          "second": "CDKN2A"
+        },
+        {
+          "cells": {
+            "00": 142,
+            "01": 5,
+            "10": 33,
+            "11": 4
+          },
+          "first": "SMAD4",
+          "min_cell": 4,
+          "passes_20_each": false,
+          "second": "ARID1A"
+        },
+        {
+          "cells": {
+            "00": 64,
+            "01": 3,
+            "10": 111,
+            "11": 6
+          },
+          "first": "KRAS",
+          "min_cell": 3,
+          "passes_20_each": false,
+          "second": "ARID1A"
+        },
+        {
+          "cells": {
+            "00": 71,
+            "01": 6,
+            "10": 104,
+            "11": 3
+          },
+          "first": "TP53",
+          "min_cell": 3,
+          "passes_20_each": false,
+          "second": "ARID1A"
+        }
+      ]
+    },
+    "UCEC": {
+      "cancer": "UCEC",
+      "candidate_frequencies": {
+        "ARID1A": {
+          "any_nonsilent_fraction": 0.42911153119092627,
+          "any_nonsilent_n": 227,
+          "hotspot_n": 0,
+          "lof_n": 207
+        },
+        "KRAS": {
+          "any_nonsilent_fraction": 0.18714555765595464,
+          "any_nonsilent_n": 99,
+          "hotspot_n": 0,
+          "lof_n": 1
+        },
+        "PIK3CA": {
+          "any_nonsilent_fraction": 0.4896030245746692,
+          "any_nonsilent_n": 259,
+          "hotspot_n": 0,
+          "lof_n": 6
+        },
+        "PIK3R1": {
+          "any_nonsilent_fraction": 0.3005671077504726,
+          "any_nonsilent_n": 159,
+          "hotspot_n": 0,
+          "lof_n": 88
+        },
+        "PTEN": {
+          "any_nonsilent_fraction": 0.6370510396975425,
+          "any_nonsilent_n": 337,
+          "hotspot_n": 0,
+          "lof_n": 253
+        },
+        "TP53": {
+          "any_nonsilent_fraction": 0.3648393194706994,
+          "any_nonsilent_n": 193,
+          "hotspot_n": 0,
+          "lof_n": 49
+        }
+      },
+      "notes": "Mutation support only; CNA, RNA intersection, covariate overlap and CPTAC carriers remain to be audited.",
+      "number_pairs_passing_20_each": 13,
+      "primary_patients": 529,
+      "primary_samples": 529,
+      "study": "ucec_tcga_pan_can_atlas_2018",
+      "top_pairs": [
+        {
+          "cells": {
+            "00": 180,
+            "01": 90,
+            "10": 122,
+            "11": 137
+          },
+          "first": "PIK3CA",
+          "min_cell": 90,
+          "passes_20_each": true,
+          "second": "ARID1A"
+        },
+        {
+          "cells": {
+            "00": 160,
+            "01": 110,
+            "10": 176,
+            "11": 83
+          },
+          "first": "PIK3CA",
+          "min_cell": 83,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 231,
+            "01": 139,
+            "10": 71,
+            "11": 88
+          },
+          "first": "PIK3R1",
+          "min_cell": 71,
+          "passes_20_each": true,
+          "second": "ARID1A"
+        },
+        {
+          "cells": {
+            "00": 124,
+            "01": 68,
+            "10": 146,
+            "11": 191
+          },
+          "first": "PTEN",
+          "min_cell": 68,
+          "passes_20_each": true,
+          "second": "PIK3CA"
+        },
+        {
+          "cells": {
+            "00": 63,
+            "01": 129,
+            "10": 273,
+            "11": 64
+          },
+          "first": "PTEN",
+          "min_cell": 63,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 159,
+            "01": 111,
+            "10": 211,
+            "11": 48
+          },
+          "first": "PIK3CA",
+          "min_cell": 48,
+          "passes_20_each": true,
+          "second": "PIK3R1"
+        },
+        {
+          "cells": {
+            "00": 231,
+            "01": 39,
+            "10": 199,
+            "11": 60
+          },
+          "first": "PIK3CA",
+          "min_cell": 39,
+          "passes_20_each": true,
+          "second": "KRAS"
+        },
+        {
+          "cells": {
+            "00": 216,
+            "01": 154,
+            "10": 120,
+            "11": 39
+          },
+          "first": "PIK3R1",
+          "min_cell": 39,
+          "passes_20_each": true,
+          "second": "TP53"
+        },
+        {
+          "cells": {
+            "00": 145,
+            "01": 191,
+            "10": 157,
+            "11": 36
+          },
+          "first": "TP53",
+          "min_cell": 36,
+          "passes_20_each": true,
+          "second": "ARID1A"
+        },
+        {
+          "cells": {
+            "00": 305,
+            "01": 65,
+            "10": 125,
+            "11": 34
+          },
+          "first": "PIK3R1",
+          "min_cell": 34,
+          "passes_20_each": true,
+          "second": "KRAS"
+        }
+      ]
+    }
+  },
+  "source": "cBioPortal public REST API, TCGA PanCancer Atlas studies"
+}

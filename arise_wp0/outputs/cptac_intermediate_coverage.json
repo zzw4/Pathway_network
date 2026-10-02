@@ -1,0 +1,245 @@
+{
+  "limitations": [
+    "Coverage is not evidence of source association or correct phosphosite direction.",
+    "Candidate gene lists are a first mechanistic audit and must be frozen from curated signed resources.",
+    "Site localisation and total-protein-adjusted usability are not yet tested."
+  ],
+  "results": {
+    "BRCA": {
+      "samples": 122,
+      "sources": {
+        "PIK3CA_CANONICAL": {
+          "candidate_intermediates": 11,
+          "genes_with_phosphosites": 11,
+          "genes_with_protein_in_at_least_80pct_samples": 11,
+          "phosphosite_features_by_gene": {
+            "AKT1": 9,
+            "AKT1S1": 10,
+            "AKT2": 6,
+            "EIF4EBP1": 12,
+            "FOXO1": 10,
+            "FOXO3": 15,
+            "GSK3B": 7,
+            "MTOR": 8,
+            "RPS6": 4,
+            "RPS6KB1": 7,
+            "TSC2": 27
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "AKT1": 122,
+            "AKT1S1": 122,
+            "AKT2": 122,
+            "EIF4EBP1": 122,
+            "FOXO1": 107,
+            "FOXO3": 122,
+            "GSK3B": 122,
+            "MTOR": 122,
+            "RPS6": 122,
+            "RPS6KB1": 122,
+            "TSC2": 122
+          },
+          "total_phosphosite_features": 115
+        },
+        "TP53_DAMAGING": {
+          "candidate_intermediates": 5,
+          "genes_with_phosphosites": 4,
+          "genes_with_protein_in_at_least_80pct_samples": 4,
+          "phosphosite_features_by_gene": {
+            "BAX": 0,
+            "BBC3": 1,
+            "CDKN1A": 1,
+            "MDM2": 1,
+            "TP53": 4
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "BAX": 122,
+            "BBC3": 115,
+            "CDKN1A": 115,
+            "MDM2": 0,
+            "TP53": 122
+          },
+          "total_phosphosite_features": 7
+        }
+      },
+      "study": "brca_cptac_2020"
+    },
+    "COADREAD": {
+      "samples": 110,
+      "sources": {
+        "APC_LOF": {
+          "candidate_intermediates": 6,
+          "genes_with_phosphosites": 6,
+          "genes_with_protein_in_at_least_80pct_samples": 2,
+          "phosphosite_features_by_gene": {
+            "AXIN1": 6,
+            "CTNNB1": 7,
+            "DVL1": 1,
+            "DVL2": 3,
+            "GSK3B": 4,
+            "TCF7L2": 6
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "AXIN1": 0,
+            "CTNNB1": 97,
+            "DVL1": 0,
+            "DVL2": 53,
+            "GSK3B": 97,
+            "TCF7L2": 16
+          },
+          "total_phosphosite_features": 27
+        },
+        "KRAS_CANONICAL": {
+          "candidate_intermediates": 8,
+          "genes_with_phosphosites": 8,
+          "genes_with_protein_in_at_least_80pct_samples": 5,
+          "phosphosite_features_by_gene": {
+            "BRAF": 7,
+            "ELK1": 1,
+            "MAP2K1": 2,
+            "MAP2K2": 8,
+            "MAPK1": 3,
+            "MAPK3": 3,
+            "RAF1": 9,
+            "RPS6KA1": 10
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "BRAF": 14,
+            "ELK1": 0,
+            "MAP2K1": 97,
+            "MAP2K2": 97,
+            "MAPK1": 97,
+            "MAPK3": 97,
+            "RAF1": 68,
+            "RPS6KA1": 97
+          },
+          "total_phosphosite_features": 43
+        }
+      },
+      "study": "coad_cptac_2019"
+    },
+    "LUAD": {
+      "samples": 110,
+      "sources": {
+        "EGFR_ACTIVATING": {
+          "candidate_intermediates": 9,
+          "genes_with_phosphosites": 9,
+          "genes_with_protein_in_at_least_80pct_samples": 8,
+          "phosphosite_features_by_gene": {
+            "AKT1": 7,
+            "EGFR": 14,
+            "ERBB2": 13,
+            "GAB1": 30,
+            "GRB2": 1,
+            "MAPK1": 4,
+            "MAPK3": 2,
+            "SHC1": 5,
+            "SOS1": 10
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "AKT1": 110,
+            "EGFR": 110,
+            "ERBB2": 110,
+            "GAB1": 110,
+            "GRB2": 110,
+            "MAPK1": 110,
+            "MAPK3": 110,
+            "SHC1": 110,
+            "SOS1": 0
+          },
+          "total_phosphosite_features": 86
+        },
+        "KRAS_CANONICAL": {
+          "candidate_intermediates": 8,
+          "genes_with_phosphosites": 8,
+          "genes_with_protein_in_at_least_80pct_samples": 5,
+          "phosphosite_features_by_gene": {
+            "BRAF": 12,
+            "ELK1": 3,
+            "MAP2K1": 5,
+            "MAP2K2": 7,
+            "MAPK1": 4,
+            "MAPK3": 2,
+            "RAF1": 9,
+            "RPS6KA1": 7
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "BRAF": 110,
+            "ELK1": 65,
+            "MAP2K1": 110,
+            "MAP2K2": 0,
+            "MAPK1": 110,
+            "MAPK3": 110,
+            "RAF1": 0,
+            "RPS6KA1": 110
+          },
+          "total_phosphosite_features": 49
+        }
+      },
+      "study": "luad_cptac_2020"
+    },
+    "UCEC": {
+      "samples": 95,
+      "sources": {
+        "KRAS_CANONICAL": {
+          "candidate_intermediates": 8,
+          "genes_with_phosphosites": 8,
+          "genes_with_protein_in_at_least_80pct_samples": 8,
+          "phosphosite_features_by_gene": {
+            "BRAF": 16,
+            "ELK1": 5,
+            "MAP2K1": 3,
+            "MAP2K2": 10,
+            "MAPK1": 4,
+            "MAPK3": 4,
+            "RAF1": 25,
+            "RPS6KA1": 16
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "BRAF": 95,
+            "ELK1": 83,
+            "MAP2K1": 95,
+            "MAP2K2": 95,
+            "MAPK1": 95,
+            "MAPK3": 95,
+            "RAF1": 95,
+            "RPS6KA1": 95
+          },
+          "total_phosphosite_features": 83
+        },
+        "PTEN_LOF": {
+          "candidate_intermediates": 11,
+          "genes_with_phosphosites": 11,
+          "genes_with_protein_in_at_least_80pct_samples": 11,
+          "phosphosite_features_by_gene": {
+            "AKT1": 5,
+            "AKT1S1": 14,
+            "AKT2": 8,
+            "EIF4EBP1": 19,
+            "FOXO1": 22,
+            "FOXO3": 42,
+            "GSK3B": 8,
+            "MTOR": 18,
+            "RPS6": 8,
+            "RPS6KB1": 4,
+            "TSC2": 44
+          },
+          "protein_nonmissing_samples_by_gene": {
+            "AKT1": 95,
+            "AKT1S1": 95,
+            "AKT2": 95,
+            "EIF4EBP1": 95,
+            "FOXO1": 95,
+            "FOXO3": 95,
+            "GSK3B": 95,
+            "MTOR": 95,
+            "RPS6": 95,
+            "RPS6KB1": 95,
+            "TSC2": 95
+          },
+          "total_phosphosite_features": 192
+        }
+      },
+      "study": "ucec_cptac_2020"
+    }
+  }
+}

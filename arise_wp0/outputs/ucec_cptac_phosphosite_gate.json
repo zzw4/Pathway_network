@@ -1,0 +1,501 @@
+{
+  "carrier_counts": {
+    "KRAS_CANONICAL": 29,
+    "PIK3CA_CANONICAL": 17,
+    "PIK3R1_LOF": 17,
+    "PTEN_LOF": 54
+  },
+  "clinical_completeness": {
+    "GENOMICS_SUBTYPE": 95,
+    "PURITY_CANCER": 91
+  },
+  "exploratory_pi3k_source_screen": {
+    "PIK3CA_CANONICAL": {
+      "beta": -0.03425381583570256,
+      "carriers": 16,
+      "ci95": [
+        -0.37040609804002317,
+        0.301898466368618
+      ],
+      "covariates": [
+        "PIK3CA_CANONICAL",
+        "KRAS_CANONICAL",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "n": 91,
+      "p_directional_positive": 0.5791501115439336,
+      "p_two_sided": 0.8416997769121328,
+      "se": 0.17150941795657823
+    },
+    "PIK3R1_LOF": {
+      "beta": 0.001072561849039301,
+      "carriers": 17,
+      "ci95": [
+        -0.29104433688853476,
+        0.2931894605866134
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "n": 91,
+      "p_directional_positive": 0.4971290867339862,
+      "p_two_sided": 0.9942581734679724,
+      "se": 0.14904197273100675
+    },
+    "PTEN_LOF": {
+      "beta": 0.01826041385697673,
+      "carriers": 53,
+      "ci95": [
+        -0.2734927855104251,
+        0.3100136132243786
+      ],
+      "covariates": [
+        "PTEN_LOF",
+        "KRAS_CANONICAL",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "n": 91,
+      "p_directional_positive": 0.4511836831685769,
+      "p_two_sided": 0.9023673663371538,
+      "se": 0.14885640841806985
+    }
+  },
+  "frozen_site_panel": {
+    "MAPK": [
+      "MAPK1_T185",
+      "MAPK1_Y187",
+      "MAPK3_T202",
+      "MAPK3_Y204"
+    ],
+    "PI3K": [
+      "AKT2_S474",
+      "GSK3B_S9",
+      "FOXO3_T32",
+      "TSC2_T1462",
+      "EIF4EBP1_T37",
+      "EIF4EBP1_T46",
+      "EIF4EBP1_S65",
+      "EIF4EBP1_T70",
+      "RPS6_S235",
+      "RPS6_S236",
+      "RPS6_S240",
+      "RPS6_S244"
+    ]
+  },
+  "gate_rule": "Advance only if each source has a positive adjusted module effect and at least one biologically matching site with directional FDR < 0.10; otherwise revise the source or cancer before neural-network development.",
+  "limitations": [
+    "Observational phosphoproteomics does not establish causality.",
+    "The panel is deliberately small and directional; absent canonical sites cannot be substituted post hoc.",
+    "Module residualisation adjusts each phosphosite for corresponding total protein before aggregation."
+  ],
+  "module_results": {
+    "MAPK": {
+      "beta": 0.45908891857553896,
+      "carriers": 28,
+      "ci95": [
+        0.08186264548157512,
+        0.8363151916695029
+      ],
+      "covariates": [
+        "KRAS_CANONICAL",
+        "PIK3R1_LOF",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "n": 91,
+      "p_directional_positive": 0.008532604434794016,
+      "p_two_sided": 0.017065208869588032,
+      "se": 0.19246592083807487,
+      "sites_contributing": [
+        "MAPK_0",
+        "MAPK_1",
+        "MAPK_2",
+        "MAPK_3"
+      ],
+      "source": "KRAS_CANONICAL"
+    },
+    "PI3K": {
+      "beta": 0.001072561849039301,
+      "carriers": 17,
+      "ci95": [
+        -0.29104433688853476,
+        0.2931894605866134
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "n": 91,
+      "p_directional_positive": 0.4971290867339862,
+      "p_two_sided": 0.9942581734679724,
+      "se": 0.14904197273100675,
+      "sites_contributing": [
+        "PI3K_1",
+        "PI3K_2",
+        "PI3K_4",
+        "PI3K_5",
+        "PI3K_6",
+        "PI3K_7",
+        "PI3K_8",
+        "PI3K_9",
+        "PI3K_10"
+      ],
+      "source": "PIK3R1_LOF"
+    }
+  },
+  "panel_summary": {
+    "directional_fdr_lt_0.1": 0,
+    "directionally_positive_sites": 10,
+    "tested_sites": 13
+  },
+  "samples": 95,
+  "site_results": [
+    {
+      "carriers": 0,
+      "error": "insufficient source groups",
+      "gene": "AKT2",
+      "module": "PI3K",
+      "n": 6,
+      "site": "AKT2_S474",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": 0.14285482353043674,
+      "carriers": 17,
+      "ci95": [
+        -0.2374356950522917,
+        0.5231453421131652
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "GSK3B",
+      "module": "PI3K",
+      "n": 91,
+      "p_directional_positive": 0.23078815248534063,
+      "p_two_sided": 0.46157630497068125,
+      "q_directional_panel": 0.42541075572023096,
+      "se": 0.19402934012176323,
+      "site": "GSK3B_S9",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": 0.17478715241887635,
+      "carriers": 17,
+      "ci95": [
+        -0.22813028039570513,
+        0.5777045852334578
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "FOXO3",
+      "module": "PI3K",
+      "n": 91,
+      "p_directional_positive": 0.19759582967517508,
+      "p_two_sided": 0.39519165935035017,
+      "q_directional_panel": 0.42541075572023096,
+      "se": 0.20557389625153463,
+      "site": "FOXO3_T32",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "carriers": 2,
+      "error": "insufficient source groups",
+      "gene": "TSC2",
+      "module": "PI3K",
+      "n": 3,
+      "site": "TSC2_T1462",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": -0.1914756718308599,
+      "carriers": 17,
+      "ci95": [
+        -0.42081406304605695,
+        0.037862719384337135
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "EIF4EBP1",
+      "module": "PI3K",
+      "n": 91,
+      "p_directional_positive": 0.9491202616736565,
+      "p_two_sided": 0.10175947665268702,
+      "q_directional_panel": 0.9491202616736565,
+      "se": 0.11701153338744437,
+      "site": "EIF4EBP1_T37",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": -0.1326134931348317,
+      "carriers": 17,
+      "ci95": [
+        -0.29273620539144496,
+        0.027509219121781586
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "EIF4EBP1",
+      "module": "PI3K",
+      "n": 91,
+      "p_directional_positive": 0.9477309976285386,
+      "p_two_sided": 0.10453800474292274,
+      "q_directional_panel": 0.9491202616736565,
+      "se": 0.08169676255259832,
+      "site": "EIF4EBP1_T46",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": 0.20411082616973464,
+      "carriers": 12,
+      "ci95": [
+        -0.42309086852815636,
+        0.8313125208676256
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "EIF4EBP1",
+      "module": "PI3K",
+      "n": 77,
+      "p_directional_positive": 0.2617912342893729,
+      "p_two_sided": 0.5235824685787458,
+      "q_directional_panel": 0.42541075572023096,
+      "se": 0.3200067448408124,
+      "site": "EIF4EBP1_S65",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": -0.18158177141837278,
+      "carriers": 17,
+      "ci95": [
+        -0.40537025035281926,
+        0.042206707516073666
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "EIF4EBP1",
+      "module": "PI3K",
+      "n": 91,
+      "p_directional_positive": 0.9441178676013269,
+      "p_two_sided": 0.11176426479734627,
+      "q_directional_panel": 0.9491202616736565,
+      "se": 0.11417989345705402,
+      "site": "EIF4EBP1_T70",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": 0.07804549497639807,
+      "carriers": 15,
+      "ci95": [
+        -0.34877185202853805,
+        0.5048628419813341
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "RPS6",
+      "module": "PI3K",
+      "n": 75,
+      "p_directional_positive": 0.36002635916238956,
+      "p_two_sided": 0.7200527183247791,
+      "q_directional_panel": 0.4680342669111064,
+      "se": 0.21776795409079805,
+      "site": "RPS6_S235",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": 0.14893405761884373,
+      "carriers": 17,
+      "ci95": [
+        -0.21324209376451123,
+        0.5111102090021987
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "RPS6",
+      "module": "PI3K",
+      "n": 85,
+      "p_directional_positive": 0.21012826163291254,
+      "p_two_sided": 0.4202565232658251,
+      "q_directional_panel": 0.42541075572023096,
+      "se": 0.18478714621296832,
+      "site": "RPS6_S236",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": 0.2891944383391245,
+      "carriers": 16,
+      "ci95": [
+        -0.1814775191318132,
+        0.7598663958100622
+      ],
+      "covariates": [
+        "PIK3R1_LOF",
+        "KRAS_CANONICAL",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "RPS6",
+      "module": "PI3K",
+      "n": 79,
+      "p_directional_positive": 0.11424484967679605,
+      "p_two_sided": 0.2284896993535921,
+      "q_directional_panel": 0.37129576144958715,
+      "se": 0.24014316649874085,
+      "site": "RPS6_S240",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "carriers": 2,
+      "error": "insufficient source groups",
+      "gene": "RPS6",
+      "module": "PI3K",
+      "n": 27,
+      "site": "RPS6_S244",
+      "source": "PIK3R1_LOF"
+    },
+    {
+      "beta": 0.4380072063908346,
+      "carriers": 16,
+      "ci95": [
+        0.029423863369615944,
+        0.8465905494120534
+      ],
+      "covariates": [
+        "KRAS_CANONICAL",
+        "PIK3R1_LOF",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "MAPK1",
+      "module": "MAPK",
+      "n": 57,
+      "p_directional_positive": 0.017815676942467554,
+      "p_two_sided": 0.03563135388493511,
+      "q_directional_panel": 0.1158019001260391,
+      "se": 0.20846471988468768,
+      "site": "MAPK1_T185",
+      "source": "KRAS_CANONICAL"
+    },
+    {
+      "beta": 0.4786320447541517,
+      "carriers": 28,
+      "ci95": [
+        0.06906636936350213,
+        0.8881977201448013
+      ],
+      "covariates": [
+        "KRAS_CANONICAL",
+        "PIK3R1_LOF",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "MAPK1",
+      "module": "MAPK",
+      "n": 91,
+      "p_directional_positive": 0.01099678292320729,
+      "p_two_sided": 0.02199356584641458,
+      "q_directional_panel": 0.1158019001260391,
+      "se": 0.208965919078744,
+      "site": "MAPK1_Y187",
+      "source": "KRAS_CANONICAL"
+    },
+    {
+      "beta": 0.09458112613661188,
+      "carriers": 15,
+      "ci95": [
+        -0.29127926828122985,
+        0.48044152055445355
+      ],
+      "covariates": [
+        "KRAS_CANONICAL",
+        "PIK3R1_LOF",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "MAPK3",
+      "module": "MAPK",
+      "n": 52,
+      "p_directional_positive": 0.3154638810944709,
+      "p_two_sided": 0.6309277621889418,
+      "q_directional_panel": 0.45567005046979125,
+      "se": 0.19687116572623747,
+      "site": "MAPK3_T202",
+      "source": "KRAS_CANONICAL"
+    },
+    {
+      "beta": 0.23643122213837636,
+      "carriers": 28,
+      "ci95": [
+        -0.012171667467672398,
+        0.4850341117444251
+      ],
+      "covariates": [
+        "KRAS_CANONICAL",
+        "PIK3R1_LOF",
+        "TOTAL_PROTEIN",
+        "C(GENOMICS_SUBTYPE)",
+        "PURITY_CANCER"
+      ],
+      "gene": "MAPK3",
+      "module": "MAPK",
+      "n": 91,
+      "p_directional_positive": 0.031160599671774907,
+      "p_two_sided": 0.062321199343549814,
+      "q_directional_panel": 0.13502926524435793,
+      "se": 0.12684053970736026,
+      "site": "MAPK3_Y204",
+      "source": "KRAS_CANONICAL"
+    }
+  ],
+  "study": "ucec_cptac_2020"
+}

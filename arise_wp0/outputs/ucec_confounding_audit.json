@@ -1,0 +1,233 @@
+{
+  "carrier_counts": {
+    "KRAS_CANONICAL": 88,
+    "PTEN_LOF": 253
+  },
+  "covariate_completeness": {
+    "GRADE": 529,
+    "MSI_MANTIS": 526,
+    "SUBTYPE": 507,
+    "TUMOR_TYPE": 529
+  },
+  "interpretation_rule": "Strong covariate association is expected biologically; viability requires usable within-subtype contrasts or explicit out-of-subtype validation, not covariate independence.",
+  "n_primary_patients": 529,
+  "source_covariate_associations": {
+    "KRAS_CANONICAL": {
+      "GRADE": {
+        "chi_square_p": 0.009029700438320068,
+        "cramers_v": 0.1478616082648464,
+        "n": 529,
+        "table": {
+          "G1": {
+            "0": 73,
+            "1": 24
+          },
+          "G2": {
+            "0": 93,
+            "1": 26
+          },
+          "G3": {
+            "0": 265,
+            "1": 37
+          },
+          "High Grade": {
+            "0": 10,
+            "1": 1
+          }
+        }
+      },
+      "MSI_BINARY": {
+        "chi_square_p": 6.540279666499855e-05,
+        "cramers_v": 0.18022962195832606,
+        "n": 526,
+        "table": {
+          "MSI": {
+            "0": 83,
+            "1": 34
+          },
+          "non-MSI": {
+            "0": 356,
+            "1": 53
+          }
+        }
+      },
+      "SUBTYPE": {
+        "chi_square_p": 1.6638146365878668e-07,
+        "cramers_v": 0.2603256457423954,
+        "n": 507,
+        "table": {
+          "UCEC_CN_HIGH": {
+            "0": 155,
+            "1": 8
+          },
+          "UCEC_CN_LOW": {
+            "0": 123,
+            "1": 24
+          },
+          "UCEC_MSI": {
+            "0": 104,
+            "1": 44
+          },
+          "UCEC_POLE": {
+            "0": 40,
+            "1": 9
+          }
+        }
+      },
+      "TUMOR_TYPE": {
+        "chi_square_p": 2.7313838555479386e-06,
+        "cramers_v": 0.22007647897695193,
+        "n": 529,
+        "table": {
+          "Endometrioid Endometrial Adenocarcinoma": {
+            "0": 314,
+            "1": 85
+          },
+          "Mixed Serous and Endometrioid Carcinoma": {
+            "0": 20,
+            "1": 1
+          },
+          "Serous Endometrial Adenocarcinoma": {
+            "0": 107,
+            "1": 2
+          }
+        }
+      }
+    },
+    "PTEN_LOF": {
+      "GRADE": {
+        "chi_square_p": 5.3670810756403216e-11,
+        "cramers_v": 0.3099213144074034,
+        "n": 529,
+        "table": {
+          "G1": {
+            "0": 36,
+            "1": 61
+          },
+          "G2": {
+            "0": 39,
+            "1": 80
+          },
+          "G3": {
+            "0": 190,
+            "1": 112
+          },
+          "High Grade": {
+            "0": 11,
+            "1": 0
+          }
+        }
+      },
+      "MSI_BINARY": {
+        "chi_square_p": 3.170551396795493e-09,
+        "cramers_v": 0.2628085875862653,
+        "n": 526,
+        "table": {
+          "MSI": {
+            "0": 32,
+            "1": 85
+          },
+          "non-MSI": {
+            "0": 241,
+            "1": 168
+          }
+        }
+      },
+      "SUBTYPE": {
+        "chi_square_p": 6.018090960573641e-33,
+        "cramers_v": 0.5492916383465367,
+        "n": 507,
+        "table": {
+          "UCEC_CN_HIGH": {
+            "0": 147,
+            "1": 16
+          },
+          "UCEC_CN_LOW": {
+            "0": 57,
+            "1": 90
+          },
+          "UCEC_MSI": {
+            "0": 37,
+            "1": 111
+          },
+          "UCEC_POLE": {
+            "0": 18,
+            "1": 31
+          }
+        }
+      },
+      "TUMOR_TYPE": {
+        "chi_square_p": 1.924534165030831e-26,
+        "cramers_v": 0.4731446841528362,
+        "n": 529,
+        "table": {
+          "Endometrioid Endometrial Adenocarcinoma": {
+            "0": 155,
+            "1": 244
+          },
+          "Mixed Serous and Endometrioid Carcinoma": {
+            "0": 16,
+            "1": 5
+          },
+          "Serous Endometrial Adenocarcinoma": {
+            "0": 105,
+            "1": 4
+          }
+        }
+      }
+    }
+  },
+  "study": "ucec_tcga_pan_can_atlas_2018",
+  "subtype_counts": {
+    "UCEC_CN_HIGH": 163,
+    "UCEC_CN_LOW": 147,
+    "UCEC_MSI": 148,
+    "UCEC_POLE": 49
+  },
+  "within_subtype_pair_support": {
+    "UCEC_CN_HIGH": {
+      "cells": {
+        "00": 143,
+        "01": 4,
+        "10": 12,
+        "11": 4
+      },
+      "fisher_odds_ratio": 11.916666666666666,
+      "fisher_p": 0.0035005134562291727,
+      "n": 163
+    },
+    "UCEC_CN_LOW": {
+      "cells": {
+        "00": 49,
+        "01": 8,
+        "10": 74,
+        "11": 16
+      },
+      "fisher_odds_ratio": 1.3243243243243243,
+      "fisher_p": 0.6499419957216722,
+      "n": 147
+    },
+    "UCEC_MSI": {
+      "cells": {
+        "00": 29,
+        "01": 8,
+        "10": 75,
+        "11": 36
+      },
+      "fisher_odds_ratio": 1.74,
+      "fisher_p": 0.29896346114380645,
+      "n": 148
+    },
+    "UCEC_POLE": {
+      "cells": {
+        "00": 14,
+        "01": 4,
+        "10": 26,
+        "11": 5
+      },
+      "fisher_odds_ratio": 0.6730769230769231,
+      "fisher_p": 0.7075598586520754,
+      "n": 49
+    }
+  }
+}

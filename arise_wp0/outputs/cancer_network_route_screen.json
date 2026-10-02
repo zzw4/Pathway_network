@@ -1,0 +1,311 @@
+{
+  "results": {
+    "BRCA": {
+      "covariates": [
+        "C(SUBTYPE)",
+        "C(TUMOR_TYPE)",
+        "MSI"
+      ],
+      "routes": [
+        {
+          "beta": 0.4274420561431752,
+          "carriers": 250,
+          "expected_sign": 1,
+          "n": 947,
+          "p_directional": 0.0030078351358465956,
+          "p_two_sided": 0.006015670271693191,
+          "passes": true,
+          "pathway": "PI3K",
+          "q_directional_within_cancer": 0.007519587839616489,
+          "source": "PIK3CA_CANONICAL"
+        },
+        {
+          "beta": 0.48476501858490234,
+          "carriers": 39,
+          "expected_sign": 1,
+          "n": 947,
+          "p_directional": 0.08499840957213028,
+          "p_two_sided": 0.16999681914426057,
+          "passes": false,
+          "pathway": "PI3K",
+          "q_directional_within_cancer": 0.10213858654443508,
+          "source": "PTEN_LOF"
+        },
+        {
+          "beta": 0.6070722750118345,
+          "carriers": 25,
+          "expected_sign": 1,
+          "n": 947,
+          "p_directional": 0.10213858654443508,
+          "p_two_sided": 0.20427717308887017,
+          "passes": false,
+          "pathway": "PI3K",
+          "q_directional_within_cancer": 0.10213858654443508,
+          "source": "AKT1_E17K"
+        },
+        {
+          "beta": -0.7730214021127627,
+          "carriers": 180,
+          "expected_sign": -1,
+          "n": 947,
+          "p_directional": 3.78602355280538e-08,
+          "p_two_sided": 7.57204710561076e-08,
+          "passes": true,
+          "pathway": "p53",
+          "q_directional_within_cancer": 1.89301177640269e-07,
+          "source": "TP53_DAMAGING"
+        },
+        {
+          "beta": 0.5646940606958676,
+          "carriers": 123,
+          "expected_sign": 1,
+          "n": 947,
+          "p_directional": 0.004626097478653755,
+          "p_two_sided": 0.00925219495730751,
+          "passes": true,
+          "pathway": "EGFR",
+          "q_directional_within_cancer": 0.007710162464422925,
+          "source": "ERBB2_AMP"
+        }
+      ],
+      "samples": 1084,
+      "study": "brca_tcga_pan_can_atlas_2018",
+      "supported_pathways": [
+        "EGFR",
+        "PI3K",
+        "p53"
+      ],
+      "supported_routes": 3
+    },
+    "COADREAD": {
+      "covariates": [
+        "C(TUMOR_TYPE)",
+        "MSI"
+      ],
+      "routes": [
+        {
+          "beta": -0.0541541810374888,
+          "carriers": 376,
+          "expected_sign": 1,
+          "n": 555,
+          "p_directional": 0.6534612697999894,
+          "p_two_sided": 0.6930774604000212,
+          "passes": false,
+          "pathway": "WNT",
+          "q_directional_within_cancer": 0.6534612697999894,
+          "source": "APC_LOF"
+        },
+        {
+          "beta": 1.2650597132996124,
+          "carriers": 190,
+          "expected_sign": 1,
+          "n": 555,
+          "p_directional": 1.266784049702503e-07,
+          "p_two_sided": 2.533568099405006e-07,
+          "passes": true,
+          "pathway": "MAPK",
+          "q_directional_within_cancer": 3.1669601242562575e-07,
+          "source": "KRAS_CANONICAL"
+        },
+        {
+          "beta": 0.7734396659889693,
+          "carriers": 48,
+          "expected_sign": 1,
+          "n": 555,
+          "p_directional": 0.13047514200694021,
+          "p_two_sided": 0.26095028401388043,
+          "passes": false,
+          "pathway": "MAPK",
+          "q_directional_within_cancer": 0.16309392750867527,
+          "source": "BRAF_V600E"
+        },
+        {
+          "beta": 0.6226728317240663,
+          "carriers": 67,
+          "expected_sign": 1,
+          "n": 555,
+          "p_directional": 0.0029188281146426535,
+          "p_two_sided": 0.005837656229285307,
+          "passes": true,
+          "pathway": "PI3K",
+          "q_directional_within_cancer": 0.004864713524404422,
+          "source": "PIK3CA_CANONICAL"
+        },
+        {
+          "beta": -1.5744498535670703,
+          "carriers": 201,
+          "expected_sign": -1,
+          "n": 555,
+          "p_directional": 1.3475738344071797e-23,
+          "p_two_sided": 2.6951476688143594e-23,
+          "passes": true,
+          "pathway": "p53",
+          "q_directional_within_cancer": 6.737869172035898e-23,
+          "source": "TP53_DAMAGING"
+        }
+      ],
+      "samples": 594,
+      "study": "coadread_tcga_pan_can_atlas_2018",
+      "supported_pathways": [
+        "MAPK",
+        "PI3K",
+        "p53"
+      ],
+      "supported_routes": 3
+    },
+    "LUAD": {
+      "covariates": [
+        "C(TUMOR_TYPE)",
+        "MSI"
+      ],
+      "routes": [
+        {
+          "beta": 1.459942466579462,
+          "carriers": 163,
+          "expected_sign": 1,
+          "n": 508,
+          "p_directional": 1.0433990194884007e-08,
+          "p_two_sided": 2.0867980389768013e-08,
+          "passes": true,
+          "pathway": "MAPK",
+          "q_directional_within_cancer": 4.1735960779536026e-08,
+          "source": "KRAS_CANONICAL"
+        },
+        {
+          "beta": -0.7569500181449745,
+          "carriers": 44,
+          "expected_sign": 1,
+          "n": 508,
+          "p_directional": 0.9970903454867729,
+          "p_two_sided": 0.005819309026454248,
+          "passes": false,
+          "pathway": "EGFR",
+          "q_directional_within_cancer": 0.9985033987322908,
+          "source": "EGFR_ACTIVATING"
+        },
+        {
+          "beta": -0.7092655374742847,
+          "carriers": 44,
+          "expected_sign": 1,
+          "n": 508,
+          "p_directional": 0.9985033987322908,
+          "p_two_sided": 0.0029932025354184513,
+          "passes": false,
+          "pathway": "MAPK",
+          "q_directional_within_cancer": 0.9985033987322908,
+          "source": "EGFR_ACTIVATING"
+        },
+        {
+          "beta": -0.9557782468334484,
+          "carriers": 111,
+          "expected_sign": -1,
+          "n": 508,
+          "p_directional": 3.034730717950431e-07,
+          "p_two_sided": 6.069461435900862e-07,
+          "passes": true,
+          "pathway": "p53",
+          "q_directional_within_cancer": 6.069461435900862e-07,
+          "source": "TP53_DAMAGING"
+        }
+      ],
+      "samples": 566,
+      "study": "luad_tcga_pan_can_atlas_2018",
+      "supported_pathways": [
+        "MAPK",
+        "p53"
+      ],
+      "supported_routes": 2
+    },
+    "UCEC": {
+      "covariates": [
+        "C(SUBTYPE)",
+        "C(TUMOR_TYPE)",
+        "MSI"
+      ],
+      "routes": [
+        {
+          "beta": 1.2977985472943325,
+          "carriers": 88,
+          "expected_sign": 1,
+          "n": 505,
+          "p_directional": 4.335585144894458e-05,
+          "p_two_sided": 8.671170289788916e-05,
+          "passes": true,
+          "pathway": "MAPK",
+          "q_directional_within_cancer": 0.00012077887765519,
+          "source": "KRAS_CANONICAL"
+        },
+        {
+          "beta": 0.3146516535806452,
+          "carriers": 253,
+          "expected_sign": 1,
+          "n": 505,
+          "p_directional": 0.09820686977406679,
+          "p_two_sided": 0.19641373954813357,
+          "passes": false,
+          "pathway": "PI3K",
+          "q_directional_within_cancer": 0.11784824372888014,
+          "source": "PTEN_LOF"
+        },
+        {
+          "beta": 0.6916440286085416,
+          "carriers": 88,
+          "expected_sign": 1,
+          "n": 505,
+          "p_directional": 0.0017158647903516855,
+          "p_two_sided": 0.003431729580703371,
+          "passes": true,
+          "pathway": "PI3K",
+          "q_directional_within_cancer": 0.0025737971855275283,
+          "source": "PIK3R1_LOF"
+        },
+        {
+          "beta": 0.17638791846133894,
+          "carriers": 69,
+          "expected_sign": 1,
+          "n": 505,
+          "p_directional": 0.27995755463541283,
+          "p_two_sided": 0.5599151092708257,
+          "passes": false,
+          "pathway": "PI3K",
+          "q_directional_within_cancer": 0.27995755463541283,
+          "source": "PIK3CA_CANONICAL"
+        },
+        {
+          "beta": -0.6313297897122183,
+          "carriers": 95,
+          "expected_sign": -1,
+          "n": 505,
+          "p_directional": 6.0389438827595e-05,
+          "p_two_sided": 0.00012077887765519,
+          "passes": true,
+          "pathway": "p53",
+          "q_directional_within_cancer": 0.00012077887765519,
+          "source": "TP53_DAMAGING"
+        },
+        {
+          "beta": 0.844825739671065,
+          "carriers": 68,
+          "expected_sign": 1,
+          "n": 505,
+          "p_directional": 2.9454618476897336e-06,
+          "p_two_sided": 5.890923695379467e-06,
+          "passes": true,
+          "pathway": "WNT",
+          "q_directional_within_cancer": 1.7672771086138404e-05,
+          "source": "CTNNB1_ACTIVATING"
+        }
+      ],
+      "samples": 529,
+      "study": "ucec_tcga_pan_can_atlas_2018",
+      "supported_pathways": [
+        "MAPK",
+        "PI3K",
+        "WNT",
+        "p53"
+      ],
+      "supported_routes": 4
+    }
+  },
+  "route_gate": "Expected direction, within-cancer directional FDR<0.10, and >=20 carriers."
+}

@@ -1,0 +1,32 @@
+{
+  "version": "0.1-development",
+  "scope": "WP4155 initial component; not a complete cancer-specific graph",
+  "policy": {
+    "selection": "candidate observations chosen from biochemical annotation and coverage; per-fold inclusion must use training patients only",
+    "protein": "supervises abundance, not kinase or TF activity",
+    "phospho": "site intensity requires abundance-aware observation modelling; single sites do not prove dual phosphorylation or activity",
+    "missingness": "retain NaN and explicit masks; no zero imputation",
+    "quality": "localisation, peptide aggregation and mutation-related peptide dropout unresolved"
+  },
+  "candidate_activity_observations": [
+    {"node": "MAPK1", "sites": ["MAPK1_T185", "MAPK1_Y187"], "observed_patients": [61,95], "sign_to_activity": 1, "source": "https://reactome.org/content/detail/R-HSA-109853", "status": "biochemically annotated candidate; quantitative quality review pending"},
+    {"node": "MAPK3", "sites": ["MAPK3_T202", "MAPK3_Y204"], "observed_patients": [55,95], "sign_to_activity": 1, "source": "https://research.bioinformatics.udel.edu/iptmnet/entry/P36507/", "status": "candidate; activation annotation and quantitative quality review pending"},
+    {"node": "FOXO3", "sites": ["FOXO3_T32", "FOXO3_S253"], "observed_patients": [95,89], "sign_to_activity": -1, "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3237389/", "status": "inhibitory phosphorylation candidate; activity itself unmeasured"}
+  ],
+  "candidate_abundance_observations": [
+    {"node":"CTNNB1","observed_patients":95},
+    {"node":"MAPK1","observed_patients":95},
+    {"node":"MAPK3","observed_patients":95},
+    {"node":"FOXO3","observed_patients":95},
+    {"node":"GSK3B","observed_patients":95},
+    {"node":"ELK1","observed_patients":83},
+    {"node":"FOS","observed_patients":68},
+    {"node":"TCF7L2","observed_patients":95}
+  ],
+  "coverage_limited_observations": [
+    {"node":"AKT2","site":"AKT2_S474","observed_patients":6,"status":"insufficient coverage for primary supervision"},
+    {"node":"CTNNB1","sites":["CTNNB1_S33","CTNNB1_S37","CTNNB1_T41","CTNNB1_S45"],"observed_patients":[15,0,7,15],"status":"insufficient coverage; mutated residues can alter peptide observability"},
+    {"node":"FOXO3","site":"FOXO3_S315","observed_patients":42,"status":"sensitivity candidate only"},
+    {"node":"MYC","assay":"protein","observed_patients":0,"status":"unavailable; do not label hidden MYC state as protein-validated"}
+  ]
+}

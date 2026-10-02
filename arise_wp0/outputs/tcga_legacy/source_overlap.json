@@ -1,0 +1,102 @@
+{
+  "analysis": "Exploratory WP0 overlap audit; receptor and co-alteration covariates only.",
+  "interaction_gate": {
+    "complete_receptor_cells": {
+      "pik3ca_0_tp53_0": 442,
+      "pik3ca_0_tp53_1": 82,
+      "pik3ca_1_tp53_0": 168,
+      "pik3ca_1_tp53_1": 11
+    },
+    "passes_20_per_cell": false,
+    "required_min_per_cell": 20
+  },
+  "limitations": [
+    "This is a support diagnostic, not a causal-effect estimate.",
+    "Purity, ploidy, histology, grade, age and technical covariates are not yet joined.",
+    "Thresholds must be rerun on the frozen GDC-harmonized cohort."
+  ],
+  "sources": {
+    "PIK3CA_GOF": {
+      "ate_ess_carriers": 120.77762573512311,
+      "ate_ess_noncarriers": 514.0186944899918,
+      "ate_max_weight": 21.797078001479065,
+      "carriers": 179,
+      "carriers_in_common_support": 179,
+      "common_support_interval": [
+        0.04587770892649665,
+        0.39373487351208875
+      ],
+      "covariates": [
+        "er",
+        "pr",
+        "her2",
+        "tp53_lof",
+        "erbb2_amp",
+        "ccnd1_amp"
+      ],
+      "fraction_in_common_support": 0.9943100995732574,
+      "label": "PIK3CA_GOF",
+      "n": 703,
+      "nearest_opposite_hamming": {
+        "fraction_distance_le_0_2": 0.9886201991465149,
+        "fraction_exact_match": 0.9544807965860598,
+        "mean": 0.0063221115852694805,
+        "median": 0.0
+      },
+      "noncarriers": 524,
+      "noncarriers_in_common_support": 520,
+      "overlap_ess_carriers": 176.69954326277266,
+      "overlap_ess_noncarriers": 430.14381331657296,
+      "propensity_auc_oof": 0.6209539852445733,
+      "propensity_range_carriers": [
+        0.04587770892649665,
+        0.39373487351208875
+      ],
+      "propensity_range_noncarriers": [
+        0.03577736937378591,
+        0.39406952594895794
+      ]
+    },
+    "TP53_LOF": {
+      "ate_ess_carriers": 53.504893456299136,
+      "ate_ess_noncarriers": 594.0653204199016,
+      "ate_max_weight": 29.322027808801952,
+      "carriers": 93,
+      "carriers_in_common_support": 93,
+      "common_support_interval": [
+        0.034104053325391695,
+        0.47756629004978934
+      ],
+      "covariates": [
+        "er",
+        "pr",
+        "her2",
+        "pik3ca_gof",
+        "erbb2_amp",
+        "ccnd1_amp"
+      ],
+      "fraction_in_common_support": 0.9928876244665719,
+      "label": "TP53_LOF",
+      "n": 703,
+      "nearest_opposite_hamming": {
+        "fraction_distance_le_0_2": 0.9914651493598862,
+        "fraction_exact_match": 0.9388335704125178,
+        "mean": 0.007744586691955113,
+        "median": 0.0
+      },
+      "noncarriers": 610,
+      "noncarriers_in_common_support": 605,
+      "overlap_ess_carriers": 90.07846164178886,
+      "overlap_ess_noncarriers": 323.24845659198485,
+      "propensity_auc_oof": 0.7193724660673364,
+      "propensity_range_carriers": [
+        0.034104053325391695,
+        0.47756629004978934
+      ],
+      "propensity_range_noncarriers": [
+        0.03302350740573544,
+        0.48893957019088014
+      ]
+    }
+  }
+}

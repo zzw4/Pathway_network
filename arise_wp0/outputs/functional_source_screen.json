@@ -1,0 +1,537 @@
+{
+  "definitions": {
+    "EGFR_ACTIVATING": [
+      "L858R",
+      "canonical exon-19 deletions"
+    ],
+    "KRAS_CANONICAL": [
+      "G12*",
+      "G13*",
+      "Q61*"
+    ],
+    "LOF": [
+      "Frame_Shift_Del",
+      "Frame_Shift_Ins",
+      "Nonsense_Mutation",
+      "Nonstop_Mutation",
+      "Splice_Site"
+    ],
+    "PIK3CA_CANONICAL": [
+      "E542K",
+      "E545K",
+      "H1047R",
+      "H1047L"
+    ],
+    "TP53_DAMAGING": [
+      "Frame_Shift_Del",
+      "Frame_Shift_Ins",
+      "Nonsense_Mutation",
+      "Nonstop_Mutation",
+      "Splice_Site",
+      "R175H",
+      "R248Q",
+      "R248W",
+      "R273C",
+      "R273H",
+      "R282W"
+    ]
+  },
+  "limitations": [
+    "Conservative functional definitions deliberately trade sensitivity for interpretability.",
+    "PIK3R1 and KEAP1 missense loss-of-function are undercounted pending curated functional annotation.",
+    "Counts are TCGA primary-patient mutation support, not CPTAC validation support."
+  ],
+  "results": {
+    "BRCA": {
+      "cancer": "BRCA",
+      "functional_class_counts": {
+        "AKT1_E17K": 25,
+        "PIK3CA_CANONICAL": 250,
+        "PTEN_LOF": 39,
+        "TP53_DAMAGING": 180
+      },
+      "pairs": [
+        {
+          "cells": {
+            "00": 677,
+            "01": 157,
+            "10": 227,
+            "11": 23
+          },
+          "first": "PIK3CA_CANONICAL",
+          "min_cell": 23,
+          "passes_20_each": true,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 803,
+            "01": 31,
+            "10": 242,
+            "11": 8
+          },
+          "first": "PIK3CA_CANONICAL",
+          "min_cell": 8,
+          "passes_20_each": false,
+          "second": "PTEN_LOF"
+        },
+        {
+          "cells": {
+            "00": 870,
+            "01": 34,
+            "10": 175,
+            "11": 5
+          },
+          "first": "TP53_DAMAGING",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "PTEN_LOF"
+        },
+        {
+          "cells": {
+            "00": 810,
+            "01": 24,
+            "10": 249,
+            "11": 1
+          },
+          "first": "PIK3CA_CANONICAL",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "AKT1_E17K"
+        },
+        {
+          "cells": {
+            "00": 880,
+            "01": 24,
+            "10": 179,
+            "11": 1
+          },
+          "first": "TP53_DAMAGING",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "AKT1_E17K"
+        },
+        {
+          "cells": {
+            "00": 1020,
+            "01": 25,
+            "10": 39,
+            "11": 0
+          },
+          "first": "PTEN_LOF",
+          "min_cell": 0,
+          "passes_20_each": false,
+          "second": "AKT1_E17K"
+        }
+      ],
+      "passing_pairs": 1,
+      "primary_patients": 1084,
+      "study": "brca_tcga_pan_can_atlas_2018"
+    },
+    "COADREAD": {
+      "cancer": "COADREAD",
+      "functional_class_counts": {
+        "APC_LOF": 376,
+        "BRAF_V600E": 48,
+        "KRAS_CANONICAL": 190,
+        "PIK3CA_CANONICAL": 67,
+        "TP53_DAMAGING": 201
+      },
+      "pairs": [
+        {
+          "cells": {
+            "00": 265,
+            "01": 139,
+            "10": 128,
+            "11": 62
+          },
+          "first": "KRAS_CANONICAL",
+          "min_cell": 62,
+          "passes_20_each": true,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 181,
+            "01": 37,
+            "10": 212,
+            "11": 164
+          },
+          "first": "APC_LOF",
+          "min_cell": 37,
+          "passes_20_each": true,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 183,
+            "01": 35,
+            "10": 221,
+            "11": 155
+          },
+          "first": "APC_LOF",
+          "min_cell": 35,
+          "passes_20_each": true,
+          "second": "KRAS_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 371,
+            "01": 33,
+            "10": 156,
+            "11": 34
+          },
+          "first": "KRAS_CANONICAL",
+          "min_cell": 33,
+          "passes_20_each": true,
+          "second": "PIK3CA_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 199,
+            "01": 19,
+            "10": 328,
+            "11": 48
+          },
+          "first": "APC_LOF",
+          "min_cell": 19,
+          "passes_20_each": false,
+          "second": "PIK3CA_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 341,
+            "01": 186,
+            "10": 52,
+            "11": 15
+          },
+          "first": "PIK3CA_CANONICAL",
+          "min_cell": 15,
+          "passes_20_each": false,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 357,
+            "01": 189,
+            "10": 36,
+            "11": 12
+          },
+          "first": "BRAF_V600E",
+          "min_cell": 12,
+          "passes_20_each": false,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 488,
+            "01": 58,
+            "10": 39,
+            "11": 9
+          },
+          "first": "BRAF_V600E",
+          "min_cell": 9,
+          "passes_20_each": false,
+          "second": "PIK3CA_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 177,
+            "01": 41,
+            "10": 369,
+            "11": 7
+          },
+          "first": "APC_LOF",
+          "min_cell": 7,
+          "passes_20_each": false,
+          "second": "BRAF_V600E"
+        },
+        {
+          "cells": {
+            "00": 357,
+            "01": 47,
+            "10": 189,
+            "11": 1
+          },
+          "first": "KRAS_CANONICAL",
+          "min_cell": 1,
+          "passes_20_each": false,
+          "second": "BRAF_V600E"
+        }
+      ],
+      "passing_pairs": 4,
+      "primary_patients": 594,
+      "study": "coadread_tcga_pan_can_atlas_2018"
+    },
+    "LUAD": {
+      "cancer": "LUAD",
+      "functional_class_counts": {
+        "EGFR_ACTIVATING": 44,
+        "KEAP1_LOF": 22,
+        "KRAS_CANONICAL": 163,
+        "STK11_LOF": 53,
+        "TP53_DAMAGING": 111
+      },
+      "pairs": [
+        {
+          "cells": {
+            "00": 317,
+            "01": 86,
+            "10": 138,
+            "11": 25
+          },
+          "first": "KRAS_CANONICAL",
+          "min_cell": 25,
+          "passes_20_each": true,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 373,
+            "01": 30,
+            "10": 140,
+            "11": 23
+          },
+          "first": "KRAS_CANONICAL",
+          "min_cell": 23,
+          "passes_20_each": true,
+          "second": "STK11_LOF"
+        },
+        {
+          "cells": {
+            "00": 390,
+            "01": 13,
+            "10": 154,
+            "11": 9
+          },
+          "first": "KRAS_CANONICAL",
+          "min_cell": 9,
+          "passes_20_each": false,
+          "second": "KEAP1_LOF"
+        },
+        {
+          "cells": {
+            "00": 500,
+            "01": 13,
+            "10": 44,
+            "11": 9
+          },
+          "first": "STK11_LOF",
+          "min_cell": 9,
+          "passes_20_each": false,
+          "second": "KEAP1_LOF"
+        },
+        {
+          "cells": {
+            "00": 411,
+            "01": 102,
+            "10": 44,
+            "11": 9
+          },
+          "first": "STK11_LOF",
+          "min_cell": 9,
+          "passes_20_each": false,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 419,
+            "01": 103,
+            "10": 36,
+            "11": 8
+          },
+          "first": "EGFR_ACTIVATING",
+          "min_cell": 8,
+          "passes_20_each": false,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 436,
+            "01": 108,
+            "10": 19,
+            "11": 3
+          },
+          "first": "KEAP1_LOF",
+          "min_cell": 3,
+          "passes_20_each": false,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 359,
+            "01": 44,
+            "10": 163,
+            "11": 0
+          },
+          "first": "KRAS_CANONICAL",
+          "min_cell": 0,
+          "passes_20_each": false,
+          "second": "EGFR_ACTIVATING"
+        },
+        {
+          "cells": {
+            "00": 469,
+            "01": 53,
+            "10": 44,
+            "11": 0
+          },
+          "first": "EGFR_ACTIVATING",
+          "min_cell": 0,
+          "passes_20_each": false,
+          "second": "STK11_LOF"
+        },
+        {
+          "cells": {
+            "00": 500,
+            "01": 22,
+            "10": 44,
+            "11": 0
+          },
+          "first": "EGFR_ACTIVATING",
+          "min_cell": 0,
+          "passes_20_each": false,
+          "second": "KEAP1_LOF"
+        }
+      ],
+      "passing_pairs": 2,
+      "primary_patients": 566,
+      "study": "luad_tcga_pan_can_atlas_2018"
+    },
+    "UCEC": {
+      "cancer": "UCEC",
+      "functional_class_counts": {
+        "KRAS_CANONICAL": 88,
+        "PIK3CA_CANONICAL": 69,
+        "PIK3R1_LOF": 88,
+        "PTEN_LOF": 253,
+        "TP53_DAMAGING": 95
+      },
+      "pairs": [
+        {
+          "cells": {
+            "00": 243,
+            "01": 33,
+            "10": 217,
+            "11": 36
+          },
+          "first": "PTEN_LOF",
+          "min_cell": 33,
+          "passes_20_each": true,
+          "second": "PIK3CA_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 247,
+            "01": 29,
+            "10": 194,
+            "11": 59
+          },
+          "first": "PTEN_LOF",
+          "min_cell": 29,
+          "passes_20_each": true,
+          "second": "PIK3R1_LOF"
+        },
+        {
+          "cells": {
+            "00": 251,
+            "01": 25,
+            "10": 190,
+            "11": 63
+          },
+          "first": "PTEN_LOF",
+          "min_cell": 25,
+          "passes_20_each": true,
+          "second": "KRAS_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 205,
+            "01": 71,
+            "10": 229,
+            "11": 24
+          },
+          "first": "PTEN_LOF",
+          "min_cell": 24,
+          "passes_20_each": true,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 373,
+            "01": 68,
+            "10": 68,
+            "11": 20
+          },
+          "first": "PIK3R1_LOF",
+          "min_cell": 20,
+          "passes_20_each": true,
+          "second": "KRAS_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 359,
+            "01": 75,
+            "10": 82,
+            "11": 13
+          },
+          "first": "TP53_DAMAGING",
+          "min_cell": 13,
+          "passes_20_each": false,
+          "second": "PIK3R1_LOF"
+        },
+        {
+          "cells": {
+            "00": 384,
+            "01": 76,
+            "10": 57,
+            "11": 12
+          },
+          "first": "PIK3CA_CANONICAL",
+          "min_cell": 12,
+          "passes_20_each": false,
+          "second": "KRAS_CANONICAL"
+        },
+        {
+          "cells": {
+            "00": 374,
+            "01": 86,
+            "10": 60,
+            "11": 9
+          },
+          "first": "PIK3CA_CANONICAL",
+          "min_cell": 9,
+          "passes_20_each": false,
+          "second": "TP53_DAMAGING"
+        },
+        {
+          "cells": {
+            "00": 378,
+            "01": 82,
+            "10": 63,
+            "11": 6
+          },
+          "first": "PIK3CA_CANONICAL",
+          "min_cell": 6,
+          "passes_20_each": false,
+          "second": "PIK3R1_LOF"
+        },
+        {
+          "cells": {
+            "00": 351,
+            "01": 83,
+            "10": 90,
+            "11": 5
+          },
+          "first": "TP53_DAMAGING",
+          "min_cell": 5,
+          "passes_20_each": false,
+          "second": "KRAS_CANONICAL"
+        }
+      ],
+      "passing_pairs": 5,
+      "primary_patients": 529,
+      "study": "ucec_tcga_pan_can_atlas_2018"
+    }
+  }
+}

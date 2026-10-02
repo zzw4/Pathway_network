@@ -1,0 +1,448 @@
+{
+  "carrier_counts": {
+    "KRAS_CANONICAL": 29,
+    "CTNNB1_EXON3": 20,
+    "PIK3CA_CANONICAL": 17,
+    "PTEN_LOF": 54,
+    "PIK3R1_LOF": 17,
+    "TP53_LOF": 7,
+    "TP53_HOTSPOT": 5
+  },
+  "results": {
+    "KRAS": {
+      "complete_features": 123,
+      "requested_features": 124,
+      "patients": 95,
+      "oof_r2": {
+        "mean": 0.0,
+        "purity": 0.037226835874186626,
+        "purity_alterations": 0.05402845414716284,
+        "purity_other_alterations": 0.05322185640065191
+      },
+      "delta_r2_vs_purity": 0.016801618272976215,
+      "patient_bootstrap_ci95": [
+        0.003194531187620992,
+        0.03098031418477856
+      ],
+      "selected_alphas": [
+        {
+          "fold": 0,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 1,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 3,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        }
+      ],
+      "source_feature": "KRAS_CANONICAL",
+      "source_increment_r2": 0.0008065977465109286,
+      "source_increment_bootstrap_ci95": [
+        -0.0030609648797767794,
+        0.004840725249207423
+      ],
+      "carrier_mean_standardised_mse_improvement": 0.0016234444999112308
+    },
+    "CTNNB1": {
+      "complete_features": 400,
+      "requested_features": 403,
+      "patients": 95,
+      "oof_r2": {
+        "mean": 0.0,
+        "purity": 0.03199447017388046,
+        "purity_alterations": 0.0612380053426973,
+        "purity_other_alterations": 0.03249431009621595
+      },
+      "delta_r2_vs_purity": 0.029243535168816837,
+      "patient_bootstrap_ci95": [
+        0.010320145453696843,
+        0.04803736685636462
+      ],
+      "selected_alphas": [
+        {
+          "fold": 0,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 1,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 3,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_other_alterations",
+          "alpha": 100.0
+        }
+      ],
+      "source_feature": "CTNNB1_EXON3",
+      "source_increment_r2": 0.02874369524648135,
+      "source_increment_bootstrap_ci95": [
+        0.017460695577455297,
+        0.041440031583071475
+      ],
+      "carrier_mean_standardised_mse_improvement": 0.1155261150127053
+    },
+    "protein_CTNNB1": {
+      "complete_features": 1,
+      "requested_features": 1,
+      "patients": 95,
+      "oof_r2": {
+        "mean": 0.0,
+        "purity": 0.1966571862598212,
+        "purity_alterations": 0.48578625535332876,
+        "purity_other_alterations": 0.23819990448635953
+      },
+      "delta_r2_vs_purity": 0.28912906909350755,
+      "patient_bootstrap_ci95": [
+        0.11645400969094657,
+        0.4757841702658759
+      ],
+      "selected_alphas": [
+        {
+          "fold": 0,
+          "model": "purity",
+          "alpha": 1.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_other_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 1,
+          "model": "purity",
+          "alpha": 1.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_other_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 2,
+          "model": "purity",
+          "alpha": 1.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_alterations",
+          "alpha": 1.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_other_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 3,
+          "model": "purity",
+          "alpha": 1.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_other_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 4,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_alterations",
+          "alpha": 10.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_other_alterations",
+          "alpha": 10.0
+        }
+      ],
+      "source_feature": "CTNNB1_EXON3",
+      "source_increment_r2": 0.24758635086696923,
+      "source_increment_bootstrap_ci95": [
+        0.09893739577464876,
+        0.41178294662895537
+      ],
+      "carrier_mean_standardised_mse_improvement": 0.9628494543961503
+    },
+    "phospho_ERK": {
+      "complete_features": 2,
+      "requested_features": 4,
+      "patients": 95,
+      "oof_r2": {
+        "mean": 0.0,
+        "purity": 0.006035649586928926,
+        "purity_alterations": -0.00041653623906912074
+      },
+      "delta_r2_vs_purity": -0.006452185825998047,
+      "patient_bootstrap_ci95": [
+        -0.054837422680181845,
+        0.03911932935917819
+      ],
+      "selected_alphas": [
+        {
+          "fold": 0,
+          "model": "purity",
+          "alpha": 100.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 1,
+          "model": "purity",
+          "alpha": 100.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 3,
+          "model": "purity",
+          "alpha": 100.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        }
+      ]
+    },
+    "phospho_FOXO3": {
+      "complete_features": 1,
+      "requested_features": 2,
+      "patients": 95,
+      "oof_r2": {
+        "mean": 0.0,
+        "purity": -0.0008720037921787771,
+        "purity_alterations": -0.009973992140522192
+      },
+      "delta_r2_vs_purity": -0.009101988348343415,
+      "patient_bootstrap_ci95": [
+        -0.06847562607356134,
+        0.044257834135780806
+      ],
+      "selected_alphas": [
+        {
+          "fold": 0,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 0,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 1,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 1,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity",
+          "alpha": 100.0
+        },
+        {
+          "fold": 2,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 3,
+          "model": "purity",
+          "alpha": 10.0
+        },
+        {
+          "fold": 3,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity",
+          "alpha": 100.0
+        },
+        {
+          "fold": 4,
+          "model": "purity_alterations",
+          "alpha": 100.0
+        }
+      ]
+    }
+  },
+  "policy": "Development nested patient CV pilot. Bootstrap conditions on fitted folds. Purity-only control is incomplete confounding control. Not a causal or graph/neural performance test. No CNV attribution until focal-region audit."
+}

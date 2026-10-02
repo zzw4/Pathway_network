@@ -1,0 +1,1806 @@
+{
+  "audit": {
+    "arrowheads": {
+      "Arrow": 21,
+      "mim-binding": 2,
+      "mim-conversion": 4,
+      "mim-inhibition": 9,
+      "mim-transcription-translation": 2,
+      "none": 1
+    },
+    "data_nodes": 78,
+    "directed_interactions": 36,
+    "fully_resolved_interactions": 33,
+    "gene_node_instances": 65,
+    "gene_symbols": [
+      "AKT1",
+      "AKT2",
+      "AKT3",
+      "APC",
+      "APC2",
+      "ARAF",
+      "AXIN1",
+      "AXIN2",
+      "BAD",
+      "BAK1",
+      "BAX",
+      "BRAF",
+      "CASP9",
+      "CCND1",
+      "CDH1",
+      "CDKN1A",
+      "CTNNA1",
+      "CTNNA2",
+      "CTNNA3",
+      "CTNNB1",
+      "DDB2",
+      "EGF",
+      "EGFR",
+      "ELK1",
+      "ERBB2",
+      "FGF1",
+      "FGF2",
+      "FGFR1",
+      "FGFR2",
+      "FGFR3",
+      "FOS",
+      "FOXO3",
+      "GADD45A",
+      "GADD45B",
+      "GADD45G",
+      "GRB2",
+      "GSK3B",
+      "HRAS",
+      "ILK",
+      "KRAS",
+      "LEF1",
+      "MAP2K1",
+      "MAP2K2",
+      "MAPK1",
+      "MAPK3",
+      "MYC",
+      "NRAS",
+      "PDPK1",
+      "PIK3CA",
+      "PIK3CB",
+      "PIK3CD",
+      "PIK3R1",
+      "PIK3R2",
+      "PIK3R3",
+      "POLK",
+      "PTEN",
+      "RAF1",
+      "SOS1",
+      "SOS2",
+      "TCF7",
+      "TCF7L1",
+      "TCF7L2",
+      "TP53"
+    ],
+    "groups": 15,
+    "interactions": 39,
+    "neutral_or_unspecified_interactions": 7,
+    "pathway_module_labels": [
+      "p53 signaling \npathway",
+      "MAPK signaling\npathway",
+      "ERBB signaling \npathway",
+      "Adherens junction",
+      "PI3K-Akt \nsignaling pathway",
+      "Wnt signaling \npathway"
+    ],
+    "signed_negative_interactions": 9,
+    "signed_positive_interactions": 23,
+    "unique_gene_symbols": 63,
+    "unresolved_endpoint_reasons": {
+      "source_missing_or_coordinate_only": 2,
+      "target_missing_or_coordinate_only": 5
+    }
+  },
+  "groups": [
+    {
+      "graph_id": null,
+      "group_id": "da8be",
+      "id": "group:da8be",
+      "members": [
+        "node:f1da7",
+        "node:c100a",
+        "node:ac7eb",
+        "node:adc59",
+        "node:ec4cd"
+      ],
+      "style": "Complex"
+    },
+    {
+      "graph_id": null,
+      "group_id": "fffd8",
+      "id": "group:fffd8",
+      "members": [
+        "node:c65ba",
+        "node:ac4f4",
+        "node:dd15a",
+        "node:dd6c6",
+        "node:e4abc"
+      ],
+      "style": "Complex"
+    },
+    {
+      "graph_id": "b11ce",
+      "group_id": "dc97b",
+      "id": "group:dc97b",
+      "members": [
+        "node:a46da",
+        "node:f2461"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "b507b",
+      "group_id": "f57f5",
+      "id": "group:f57f5",
+      "members": [
+        "node:d68f8",
+        "node:a0429"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "bc6ff",
+      "group_id": "fdb02",
+      "id": "group:fdb02",
+      "members": [
+        "node:ac519",
+        "node:f5585",
+        "node:eb5fc",
+        "node:ba247",
+        "node:f1b46",
+        "node:db5a2",
+        "node:f5234",
+        "node:b5045"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "bd64c",
+      "group_id": "ebc24",
+      "id": "group:ebc24",
+      "members": [
+        "node:f8c45",
+        "node:e5f45"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "c7eb9",
+      "group_id": "c30c8",
+      "id": "group:c30c8",
+      "members": [
+        "node:eb5a8",
+        "node:bcba6",
+        "node:f9637",
+        "node:c9bc4"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "c95fa",
+      "group_id": "e0a5e",
+      "id": "group:e0a5e",
+      "members": [
+        "node:b9a1e",
+        "node:eb752",
+        "node:fd1f8",
+        "node:eccc8",
+        "node:a7df8",
+        "node:c2e60"
+      ],
+      "style": "Complex"
+    },
+    {
+      "graph_id": "da03d",
+      "group_id": "c9f54",
+      "id": "group:c9f54",
+      "members": [
+        "node:f1592",
+        "node:c293c"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "e0f76",
+      "group_id": "ca496",
+      "id": "group:ca496",
+      "members": [
+        "node:f2938",
+        "node:f72a4",
+        "node:cd7cd"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "e5d43",
+      "group_id": "ba81c",
+      "id": "group:ba81c",
+      "members": [
+        "node:c08a6",
+        "node:a38e0"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "e8a30",
+      "group_id": "aa75d",
+      "id": "group:aa75d",
+      "members": [
+        "node:c2615",
+        "node:d8b74",
+        "node:f73ae",
+        "node:f8505"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "e96ab",
+      "group_id": "cad1f",
+      "id": "group:cad1f",
+      "members": [
+        "node:c142f",
+        "node:f4a39",
+        "node:daed8"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "f8688",
+      "group_id": "b5e1d",
+      "id": "group:b5e1d",
+      "members": [
+        "node:a675b",
+        "node:f1742",
+        "node:ae6a8"
+      ],
+      "style": "Group"
+    },
+    {
+      "graph_id": "f95d4",
+      "group_id": "d7163",
+      "id": "group:d7163",
+      "members": [
+        "node:fe18c",
+        "node:f60fc",
+        "node:d7392"
+      ],
+      "style": "Group"
+    }
+  ],
+  "interactions": [
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id1ed66c8f",
+      "id": "interaction:id1ed66c8f",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:f57f5",
+      "source_graph_ref": "b507b",
+      "target": "group:dc97b",
+      "target_graph_ref": "b11ce"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id24a33b62",
+      "id": "interaction:id24a33b62",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:eced0",
+      "source_graph_ref": "eced0",
+      "target": "node:da684",
+      "target_graph_ref": "da684"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id27d2bd5a",
+      "id": "interaction:id27d2bd5a",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:ca496",
+      "source_graph_ref": "e0f76",
+      "target": "node:c8d70",
+      "target_graph_ref": "c8d70"
+    },
+    {
+      "arrowhead": "mim-conversion",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id28298151",
+      "id": "interaction:id28298151",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "node:e566c",
+      "source_graph_ref": "e566c",
+      "target": "node:ac4f4",
+      "target_graph_ref": "ac4f4"
+    },
+    {
+      "arrowhead": "mim-transcription-translation",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id2c44be56",
+      "id": "interaction:id2c44be56",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:c30c8",
+      "source_graph_ref": "c7eb9",
+      "target": "group:ba81c",
+      "target_graph_ref": "e5d43"
+    },
+    {
+      "arrowhead": "mim-binding",
+      "directed": false,
+      "fully_resolved": true,
+      "graph_id": "id2dabf21e",
+      "id": "interaction:id2dabf21e",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "group:ebc24",
+      "source_graph_ref": "bd64c",
+      "target": "node:f2938",
+      "target_graph_ref": "f2938"
+    },
+    {
+      "arrowhead": "mim-transcription-translation",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id46d698d1",
+      "id": "interaction:id46d698d1",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:e378e",
+      "source_graph_ref": "e378e",
+      "target": "node:f0d66",
+      "target_graph_ref": "f0d66"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id481716d3",
+      "id": "interaction:id481716d3",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:ca496",
+      "source_graph_ref": "e0f76",
+      "target": "group:e0a5e",
+      "target_graph_ref": "c95fa"
+    },
+    {
+      "arrowhead": null,
+      "directed": false,
+      "fully_resolved": false,
+      "graph_id": "id6b0bd19",
+      "id": "interaction:id6b0bd19",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": null,
+      "source_graph_ref": null,
+      "target": null,
+      "target_graph_ref": null
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id7365e3e6",
+      "id": "interaction:id7365e3e6",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "node:ef6a4",
+      "source_graph_ref": "ef6a4",
+      "target": "node:f2938",
+      "target_graph_ref": "f2938"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id73ebe81b",
+      "id": "interaction:id73ebe81b",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:dc97b",
+      "source_graph_ref": "b11ce",
+      "target": "node:e378e",
+      "target_graph_ref": "e378e"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id78efb7be",
+      "id": "interaction:id78efb7be",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "group:d7163",
+      "source_graph_ref": "f95d4",
+      "target": "node:e52ab",
+      "target_graph_ref": "e52ab"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id88044fdf",
+      "id": "interaction:id88044fdf",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:cad1f",
+      "source_graph_ref": "e96ab",
+      "target": "group:f57f5",
+      "target_graph_ref": "b507b"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id885e28eb",
+      "id": "interaction:id885e28eb",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:f2e77",
+      "source_graph_ref": "f2e77",
+      "target": "group:c30c8",
+      "target_graph_ref": "c7eb9"
+    },
+    {
+      "arrowhead": "mim-binding",
+      "directed": false,
+      "fully_resolved": true,
+      "graph_id": "id8b18432b",
+      "id": "interaction:id8b18432b",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "node:c2ea2",
+      "source_graph_ref": "c2ea2",
+      "target": "node:ac2f1",
+      "target_graph_ref": "ac2f1"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "id9af6b906",
+      "id": "interaction:id9af6b906",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "group:aa75d",
+      "source_graph_ref": "e8a30",
+      "target": "group:ca496",
+      "target_graph_ref": "e0f76"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ida8fd2f63",
+      "id": "interaction:ida8fd2f63",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:ac2f1",
+      "source_graph_ref": "ac2f1",
+      "target": "node:c8d70",
+      "target_graph_ref": "c8d70"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idb4626aa2",
+      "id": "interaction:idb4626aa2",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "node:ef6a4",
+      "source_graph_ref": "ef6a4",
+      "target": "node:f72a4",
+      "target_graph_ref": "f72a4"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idb4a09427",
+      "id": "interaction:idb4a09427",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:e0a5e",
+      "source_graph_ref": "c95fa",
+      "target": "node:eced0",
+      "target_graph_ref": "eced0"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idbebdbcb3",
+      "id": "interaction:idbebdbcb3",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "node:a9b41",
+      "source_graph_ref": "a9b41",
+      "target": "node:effe0",
+      "target_graph_ref": "effe0"
+    },
+    {
+      "arrowhead": "mim-conversion",
+      "directed": true,
+      "fully_resolved": false,
+      "graph_id": "idcb45b727",
+      "id": "interaction:idcb45b727",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "node:d84ca",
+      "source_graph_ref": "d84ca",
+      "target": null,
+      "target_graph_ref": "f63b0"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idccfd7889",
+      "id": "interaction:idccfd7889",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "node:ec4cd",
+      "source_graph_ref": "ec4cd",
+      "target": "node:e566c",
+      "target_graph_ref": "e566c"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idd46687e1",
+      "id": "interaction:idd46687e1",
+      "line_style": null,
+      "point_count": 2,
+      "sign": -1,
+      "source": "node:c0083",
+      "source_graph_ref": "c0083",
+      "target": "node:eced0",
+      "target_graph_ref": "eced0"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ide3b8f43",
+      "id": "interaction:ide3b8f43",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:b27e7",
+      "source_graph_ref": "b27e7",
+      "target": "group:d7163",
+      "target_graph_ref": "f95d4"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idecb3ea7e",
+      "id": "interaction:idecb3ea7e",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:da684",
+      "source_graph_ref": "da684",
+      "target": "group:d7163",
+      "target_graph_ref": "f95d4"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ideffb182d",
+      "id": "interaction:ideffb182d",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:ac2f1",
+      "source_graph_ref": "ac2f1",
+      "target": "group:e0a5e",
+      "target_graph_ref": "c95fa"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "idf2720d51",
+      "id": "interaction:idf2720d51",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:e566c",
+      "source_graph_ref": "e566c",
+      "target": "node:f2e77",
+      "target_graph_ref": "f2e77"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "a3a9d",
+      "id": "interaction:a3a9d",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:c8d70",
+      "source_graph_ref": "c8d70",
+      "target": "group:c9f54",
+      "target_graph_ref": "da03d"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "acf70",
+      "id": "interaction:acf70",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:c9f54",
+      "source_graph_ref": "da03d",
+      "target": "group:b5e1d",
+      "target_graph_ref": "f8688"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "d85b8",
+      "id": "interaction:d85b8",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "group:b5e1d",
+      "source_graph_ref": "f8688",
+      "target": "group:cad1f",
+      "target_graph_ref": "e96ab"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "fd518",
+      "id": "interaction:fd518",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 1,
+      "source": "node:eced0",
+      "source_graph_ref": "eced0",
+      "target": "node:b27e7",
+      "target_graph_ref": "b27e7"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "ca619",
+      "id": "interaction:ca619",
+      "line_style": null,
+      "point_count": 3,
+      "sign": -1,
+      "source": "group:d7163",
+      "source_graph_ref": "f95d4",
+      "target": "node:fc0cc",
+      "target_graph_ref": "fc0cc"
+    },
+    {
+      "arrowhead": "mim-inhibition",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "c4a25",
+      "id": "interaction:c4a25",
+      "line_style": null,
+      "point_count": 3,
+      "sign": -1,
+      "source": "group:d7163",
+      "source_graph_ref": "f95d4",
+      "target": "node:d84ca",
+      "target_graph_ref": "d84ca"
+    },
+    {
+      "arrowhead": "mim-conversion",
+      "directed": true,
+      "fully_resolved": false,
+      "graph_id": "df6fd",
+      "id": "interaction:df6fd",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 0,
+      "source": "node:e52ab",
+      "source_graph_ref": "e52ab",
+      "target": null,
+      "target_graph_ref": "f63b0"
+    },
+    {
+      "arrowhead": "mim-conversion",
+      "directed": true,
+      "fully_resolved": false,
+      "graph_id": "cc5c8",
+      "id": "interaction:cc5c8",
+      "line_style": null,
+      "point_count": 3,
+      "sign": 0,
+      "source": "node:fc0cc",
+      "source_graph_ref": "fc0cc",
+      "target": null,
+      "target_graph_ref": "f63b0"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": false,
+      "graph_id": "c4304",
+      "id": "interaction:c4304",
+      "line_style": "Broken",
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:f0d66",
+      "source_graph_ref": "f0d66",
+      "target": null,
+      "target_graph_ref": "df1e3"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": false,
+      "graph_id": "d9e2a",
+      "id": "interaction:d9e2a",
+      "line_style": "Broken",
+      "point_count": 2,
+      "sign": 1,
+      "source": null,
+      "source_graph_ref": "cdb8d",
+      "target": "node:e054a",
+      "target_graph_ref": "e054a"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "a5e09",
+      "id": "interaction:a5e09",
+      "line_style": "Broken",
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:e054a",
+      "source_graph_ref": "e054a",
+      "target": "group:fdb02",
+      "target_graph_ref": "bc6ff"
+    },
+    {
+      "arrowhead": "Arrow",
+      "directed": true,
+      "fully_resolved": true,
+      "graph_id": "fe8d2",
+      "id": "interaction:fe8d2",
+      "line_style": null,
+      "point_count": 2,
+      "sign": 1,
+      "source": "node:effe0",
+      "source_graph_ref": "effe0",
+      "target": "node:ec1f9",
+      "target_graph_ref": "ec1f9"
+    }
+  ],
+  "membership_edges": [
+    {
+      "relation": "member_of",
+      "source": "node:f1da7",
+      "target": "group:da8be"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c100a",
+      "target": "group:da8be"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:ac7eb",
+      "target": "group:da8be"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:adc59",
+      "target": "group:da8be"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:ec4cd",
+      "target": "group:da8be"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c65ba",
+      "target": "group:fffd8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:ac4f4",
+      "target": "group:fffd8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:dd15a",
+      "target": "group:fffd8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:dd6c6",
+      "target": "group:fffd8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:e4abc",
+      "target": "group:fffd8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:a46da",
+      "target": "group:dc97b"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f2461",
+      "target": "group:dc97b"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:d68f8",
+      "target": "group:f57f5"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:a0429",
+      "target": "group:f57f5"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:ac519",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f5585",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:eb5fc",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:ba247",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f1b46",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:db5a2",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f5234",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:b5045",
+      "target": "group:fdb02"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f8c45",
+      "target": "group:ebc24"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:e5f45",
+      "target": "group:ebc24"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:eb5a8",
+      "target": "group:c30c8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:bcba6",
+      "target": "group:c30c8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f9637",
+      "target": "group:c30c8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c9bc4",
+      "target": "group:c30c8"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:b9a1e",
+      "target": "group:e0a5e"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:eb752",
+      "target": "group:e0a5e"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:fd1f8",
+      "target": "group:e0a5e"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:eccc8",
+      "target": "group:e0a5e"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:a7df8",
+      "target": "group:e0a5e"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c2e60",
+      "target": "group:e0a5e"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f1592",
+      "target": "group:c9f54"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c293c",
+      "target": "group:c9f54"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f2938",
+      "target": "group:ca496"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f72a4",
+      "target": "group:ca496"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:cd7cd",
+      "target": "group:ca496"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c08a6",
+      "target": "group:ba81c"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:a38e0",
+      "target": "group:ba81c"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c2615",
+      "target": "group:aa75d"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:d8b74",
+      "target": "group:aa75d"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f73ae",
+      "target": "group:aa75d"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f8505",
+      "target": "group:aa75d"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:c142f",
+      "target": "group:cad1f"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f4a39",
+      "target": "group:cad1f"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:daed8",
+      "target": "group:cad1f"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:a675b",
+      "target": "group:b5e1d"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f1742",
+      "target": "group:b5e1d"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:ae6a8",
+      "target": "group:b5e1d"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:fe18c",
+      "target": "group:d7163"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:f60fc",
+      "target": "group:d7163"
+    },
+    {
+      "relation": "member_of",
+      "source": "node:d7392",
+      "target": "group:d7163"
+    }
+  ],
+  "nodes": [
+    {
+      "graph_id": "a27ee",
+      "group_ref": null,
+      "id": "node:a27ee",
+      "label": "p53 signaling \npathway",
+      "type": "Pathway",
+      "xref_database": "",
+      "xref_id": ""
+    },
+    {
+      "graph_id": "a9b41",
+      "group_ref": null,
+      "id": "node:a9b41",
+      "label": "Trastuzumab",
+      "type": "Metabolite",
+      "xref_database": "Wikidata",
+      "xref_id": "Q412616"
+    },
+    {
+      "graph_id": "c2615",
+      "group_ref": "aa75d",
+      "id": "node:c2615",
+      "label": "Lenvatinib",
+      "type": "Metabolite",
+      "xref_database": "ChEBI",
+      "xref_id": "CHEBI:85994"
+    },
+    {
+      "graph_id": "c2ea2",
+      "group_ref": null,
+      "id": "node:c2ea2",
+      "label": "EGF",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000138798"
+    },
+    {
+      "graph_id": "cfdc5",
+      "group_ref": null,
+      "id": "node:cfdc5",
+      "label": "MAPK signaling\npathway",
+      "type": "Pathway",
+      "xref_database": "WikiPathways",
+      "xref_id": "WP382"
+    },
+    {
+      "graph_id": "d8b74",
+      "group_ref": "aa75d",
+      "id": "node:d8b74",
+      "label": "Ponatinib",
+      "type": "Metabolite",
+      "xref_database": "ChEBI",
+      "xref_id": "CHEBI:78543"
+    },
+    {
+      "graph_id": "ec1f9",
+      "group_ref": null,
+      "id": "node:ec1f9",
+      "label": "ERBB signaling \npathway",
+      "type": "Pathway",
+      "xref_database": "WikiPathways",
+      "xref_id": "WP673"
+    },
+    {
+      "graph_id": "eced0",
+      "group_ref": null,
+      "id": "node:eced0",
+      "label": "PIP3",
+      "type": "Metabolite",
+      "xref_database": "HMDB",
+      "xref_id": "HMDB0004249"
+    },
+    {
+      "graph_id": "ef6a4",
+      "group_ref": null,
+      "id": "node:ef6a4",
+      "label": "Brivanib",
+      "type": "Metabolite",
+      "xref_database": "Wikidata",
+      "xref_id": "Q27075503"
+    },
+    {
+      "graph_id": "f0d66",
+      "group_ref": null,
+      "id": "node:f0d66",
+      "label": "FOS",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000170345"
+    },
+    {
+      "graph_id": "f73ae",
+      "group_ref": "aa75d",
+      "id": "node:f73ae",
+      "label": "Nintedanib",
+      "type": "Metabolite",
+      "xref_database": "ChEBI",
+      "xref_id": "CHEBI:85164"
+    },
+    {
+      "graph_id": "f8505",
+      "group_ref": "aa75d",
+      "id": "node:f8505",
+      "label": "Dovitinib",
+      "type": "Metabolite",
+      "xref_database": "Wikidata",
+      "xref_id": "Q27077102"
+    },
+    {
+      "graph_id": "fce90",
+      "group_ref": null,
+      "id": "node:fce90",
+      "label": "Adherens junction",
+      "type": "Pathway",
+      "xref_database": "",
+      "xref_id": ""
+    },
+    {
+      "graph_id": "ac2f1",
+      "group_ref": null,
+      "id": "node:ac2f1",
+      "label": "EGFR",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000146648"
+    },
+    {
+      "graph_id": "c8d70",
+      "group_ref": null,
+      "id": "node:c8d70",
+      "label": "GRB2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000177885"
+    },
+    {
+      "graph_id": "f1592",
+      "group_ref": "c9f54",
+      "id": "node:f1592",
+      "label": "SOS1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000115904"
+    },
+    {
+      "graph_id": "c293c",
+      "group_ref": "c9f54",
+      "id": "node:c293c",
+      "label": "SOS2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000100485"
+    },
+    {
+      "graph_id": "a675b",
+      "group_ref": "b5e1d",
+      "id": "node:a675b",
+      "label": "HRAS",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000174775"
+    },
+    {
+      "graph_id": "f1742",
+      "group_ref": "b5e1d",
+      "id": "node:f1742",
+      "label": "KRAS",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000133703"
+    },
+    {
+      "graph_id": "ae6a8",
+      "group_ref": "b5e1d",
+      "id": "node:ae6a8",
+      "label": "NRAS",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000213281"
+    },
+    {
+      "graph_id": "c142f",
+      "group_ref": "cad1f",
+      "id": "node:c142f",
+      "label": "ARAF",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000078061"
+    },
+    {
+      "graph_id": "f4a39",
+      "group_ref": "cad1f",
+      "id": "node:f4a39",
+      "label": "BRAF",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000157764"
+    },
+    {
+      "graph_id": "daed8",
+      "group_ref": "cad1f",
+      "id": "node:daed8",
+      "label": "RAF1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000132155"
+    },
+    {
+      "graph_id": "d68f8",
+      "group_ref": "f57f5",
+      "id": "node:d68f8",
+      "label": "MAP2K1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000169032"
+    },
+    {
+      "graph_id": "a0429",
+      "group_ref": "f57f5",
+      "id": "node:a0429",
+      "label": "MAP2K2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000126934"
+    },
+    {
+      "graph_id": "a46da",
+      "group_ref": "dc97b",
+      "id": "node:a46da",
+      "label": "MAPK1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000100030"
+    },
+    {
+      "graph_id": "f2461",
+      "group_ref": "dc97b",
+      "id": "node:f2461",
+      "label": "MAPK3",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000102882"
+    },
+    {
+      "graph_id": "e378e",
+      "group_ref": null,
+      "id": "node:e378e",
+      "label": "ELK1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000126767"
+    },
+    {
+      "graph_id": "c0083",
+      "group_ref": null,
+      "id": "node:c0083",
+      "label": "PTEN",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000171862"
+    },
+    {
+      "graph_id": "b9a1e",
+      "group_ref": "e0a5e",
+      "id": "node:b9a1e",
+      "label": "PIK3CA",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000121879"
+    },
+    {
+      "graph_id": "eb752",
+      "group_ref": "e0a5e",
+      "id": "node:eb752",
+      "label": "PIK3CB",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000051382"
+    },
+    {
+      "graph_id": "fd1f8",
+      "group_ref": "e0a5e",
+      "id": "node:fd1f8",
+      "label": "PIK3CD",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000171608"
+    },
+    {
+      "graph_id": "eccc8",
+      "group_ref": "e0a5e",
+      "id": "node:eccc8",
+      "label": "PIK3R1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000145675"
+    },
+    {
+      "graph_id": "a7df8",
+      "group_ref": "e0a5e",
+      "id": "node:a7df8",
+      "label": "PIK3R2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000105647"
+    },
+    {
+      "graph_id": "c2e60",
+      "group_ref": "e0a5e",
+      "id": "node:c2e60",
+      "label": "PIK3R3",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000117461"
+    },
+    {
+      "graph_id": "da684",
+      "group_ref": null,
+      "id": "node:da684",
+      "label": "PDPK1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000140992"
+    },
+    {
+      "graph_id": "b27e7",
+      "group_ref": null,
+      "id": "node:b27e7",
+      "label": "ILK",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000166333"
+    },
+    {
+      "graph_id": "fe18c",
+      "group_ref": "d7163",
+      "id": "node:fe18c",
+      "label": "AKT1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000142208"
+    },
+    {
+      "graph_id": "f60fc",
+      "group_ref": "d7163",
+      "id": "node:f60fc",
+      "label": "AKT2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000105221"
+    },
+    {
+      "graph_id": "d7392",
+      "group_ref": "d7163",
+      "id": "node:d7392",
+      "label": "AKT3",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000117020"
+    },
+    {
+      "graph_id": "d84ca",
+      "group_ref": null,
+      "id": "node:d84ca",
+      "label": "FOXO3",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000118689"
+    },
+    {
+      "graph_id": "e52ab",
+      "group_ref": null,
+      "id": "node:e52ab",
+      "label": "BAD",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000002330"
+    },
+    {
+      "graph_id": "fc0cc",
+      "group_ref": null,
+      "id": "node:fc0cc",
+      "label": "CASP9",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000132906"
+    },
+    {
+      "graph_id": "b86ec",
+      "group_ref": null,
+      "id": "node:b86ec",
+      "label": "PI3K-Akt \nsignaling pathway",
+      "type": "Pathway",
+      "xref_database": "WikiPathways",
+      "xref_id": "WP3932"
+    },
+    {
+      "graph_id": "c65ba",
+      "group_ref": "fffd8",
+      "id": "node:c65ba",
+      "label": "CDH1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000039068"
+    },
+    {
+      "graph_id": "ac4f4",
+      "group_ref": "fffd8",
+      "id": "node:ac4f4",
+      "label": "CTNNB1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000168036"
+    },
+    {
+      "graph_id": "dd15a",
+      "group_ref": "fffd8",
+      "id": "node:dd15a",
+      "label": "CTNNA1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000044115"
+    },
+    {
+      "graph_id": "dd6c6",
+      "group_ref": "fffd8",
+      "id": "node:dd6c6",
+      "label": "CTNNA2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000066032"
+    },
+    {
+      "graph_id": "e4abc",
+      "group_ref": "fffd8",
+      "id": "node:e4abc",
+      "label": "CTNNA3",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000183230"
+    },
+    {
+      "graph_id": "f1da7",
+      "group_ref": "da8be",
+      "id": "node:f1da7",
+      "label": "AXIN1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000103126"
+    },
+    {
+      "graph_id": "c100a",
+      "group_ref": "da8be",
+      "id": "node:c100a",
+      "label": "AXIN2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000168646"
+    },
+    {
+      "graph_id": "ac7eb",
+      "group_ref": "da8be",
+      "id": "node:ac7eb",
+      "label": "APC",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000134982"
+    },
+    {
+      "graph_id": "adc59",
+      "group_ref": "da8be",
+      "id": "node:adc59",
+      "label": "APC2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000115266"
+    },
+    {
+      "graph_id": "ec4cd",
+      "group_ref": "da8be",
+      "id": "node:ec4cd",
+      "label": "GSK3B",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000082701"
+    },
+    {
+      "graph_id": "e566c",
+      "group_ref": null,
+      "id": "node:e566c",
+      "label": "CTNNB1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000168036"
+    },
+    {
+      "graph_id": "b003c",
+      "group_ref": null,
+      "id": "node:b003c",
+      "label": "Wnt signaling \npathway",
+      "type": "Pathway",
+      "xref_database": "WikiPathways",
+      "xref_id": "WP428"
+    },
+    {
+      "graph_id": "eb5a8",
+      "group_ref": "c30c8",
+      "id": "node:eb5a8",
+      "label": "TCF7",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000081059"
+    },
+    {
+      "graph_id": "bcba6",
+      "group_ref": "c30c8",
+      "id": "node:bcba6",
+      "label": "LEF1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000138795"
+    },
+    {
+      "graph_id": "f9637",
+      "group_ref": "c30c8",
+      "id": "node:f9637",
+      "label": "TCF7L1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000152284"
+    },
+    {
+      "graph_id": "c9bc4",
+      "group_ref": "c30c8",
+      "id": "node:c9bc4",
+      "label": "TCF7L2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000148737"
+    },
+    {
+      "graph_id": "c08a6",
+      "group_ref": "ba81c",
+      "id": "node:c08a6",
+      "label": "CCND1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000110092"
+    },
+    {
+      "graph_id": "a38e0",
+      "group_ref": "ba81c",
+      "id": "node:a38e0",
+      "label": "MYC",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000136997"
+    },
+    {
+      "graph_id": "effe0",
+      "group_ref": null,
+      "id": "node:effe0",
+      "label": "ERBB2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000141736"
+    },
+    {
+      "graph_id": "ac519",
+      "group_ref": "fdb02",
+      "id": "node:ac519",
+      "label": "BAX",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000087088"
+    },
+    {
+      "graph_id": "f5585",
+      "group_ref": "fdb02",
+      "id": "node:f5585",
+      "label": "CDKN1A",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000124762"
+    },
+    {
+      "graph_id": "eb5fc",
+      "group_ref": "fdb02",
+      "id": "node:eb5fc",
+      "label": "DDB2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000134574"
+    },
+    {
+      "graph_id": "ba247",
+      "group_ref": "fdb02",
+      "id": "node:ba247",
+      "label": "GADD45A",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000116717"
+    },
+    {
+      "graph_id": "f1b46",
+      "group_ref": "fdb02",
+      "id": "node:f1b46",
+      "label": "GADD45B",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000099860"
+    },
+    {
+      "graph_id": "db5a2",
+      "group_ref": "fdb02",
+      "id": "node:db5a2",
+      "label": "GADD45G",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000130222"
+    },
+    {
+      "graph_id": "f5234",
+      "group_ref": "fdb02",
+      "id": "node:f5234",
+      "label": "BAK1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000030110"
+    },
+    {
+      "graph_id": "b5045",
+      "group_ref": "fdb02",
+      "id": "node:b5045",
+      "label": "POLK",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000122008"
+    },
+    {
+      "graph_id": "e054a",
+      "group_ref": null,
+      "id": "node:e054a",
+      "label": "TP53",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000141510"
+    },
+    {
+      "graph_id": "f2938",
+      "group_ref": "ca496",
+      "id": "node:f2938",
+      "label": "FGFR2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000066468"
+    },
+    {
+      "graph_id": "f8c45",
+      "group_ref": "ebc24",
+      "id": "node:f8c45",
+      "label": "FGF1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000113578"
+    },
+    {
+      "graph_id": "e5f45",
+      "group_ref": "ebc24",
+      "id": "node:e5f45",
+      "label": "FGF2",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000138685"
+    },
+    {
+      "graph_id": "f72a4",
+      "group_ref": "ca496",
+      "id": "node:f72a4",
+      "label": "FGFR1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000077782"
+    },
+    {
+      "graph_id": "cd7cd",
+      "group_ref": "ca496",
+      "id": "node:cd7cd",
+      "label": "FGFR3",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000068078"
+    },
+    {
+      "graph_id": "f2e77",
+      "group_ref": null,
+      "id": "node:f2e77",
+      "label": "CTNNB1",
+      "type": "GeneProduct",
+      "xref_database": "Ensembl",
+      "xref_id": "ENSG00000168036"
+    }
+  ],
+  "pathway": {
+    "id": "WP4155",
+    "last_modified": "20260131012624",
+    "name": "Endometrial cancer",
+    "organism": "Homo sapiens",
+    "version": "WP4155_r142386"
+  }
+}

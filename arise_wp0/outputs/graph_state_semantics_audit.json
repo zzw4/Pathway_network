@@ -1,0 +1,3316 @@
+{
+  "policy": "Automated flags are curation candidates, not validated biochemical assignments.",
+  "core_edges": [
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:IntAct",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:Macrophage",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoNetworks",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:PhosphoSite_noref",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "MAP2K1",
+      "target": "MAPK1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id1ed66c8f",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:ELM",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:LMPID",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:Macrophage",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoNetworks",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:PhosphoSite_noref",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "MAP2K1",
+      "target": "MAPK3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id1ed66c8f",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:Cui2007",
+        "OmniPath:ELM",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:Macrophage",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "MAP2K2",
+      "target": "MAPK1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id1ed66c8f",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:Macrophage",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoNetworks",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "MAP2K2",
+      "target": "MAPK3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id1ed66c8f",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIP3",
+      "target": "PDPK1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "metabolite_state_to_protein_activity",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id24a33b62",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR1",
+      "target": "GRB2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id27d2bd5a",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:HINT",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:PhosphoSite",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR2",
+      "target": "GRB2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id27d2bd5a",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR3",
+      "target": "GRB2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id27d2bd5a",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "LEF1",
+      "target": "CCND1",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "LEF1",
+      "target": "MYC",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TCF7",
+      "target": "CCND1",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TCF7",
+      "target": "MYC",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TCF7L1",
+      "target": "CCND1",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TCF7L1",
+      "target": "MYC",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TCF7L2",
+      "target": "CCND1",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TCF7L2",
+      "target": "MYC",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2c44be56",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": false,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 0,
+      "source": "FGF1",
+      "target": "FGFR2",
+      "wp_arrowhead": "mim-binding",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "neutral_or_undirected",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2dabf21e",
+          "complex_endpoint": false,
+          "arrowhead": "mim-binding"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": false,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 0,
+      "source": "FGF2",
+      "target": "FGFR2",
+      "wp_arrowhead": "mim-binding",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "neutral_or_undirected",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id2dabf21e",
+          "complex_endpoint": false,
+          "arrowhead": "mim-binding"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "ELK1",
+      "target": "FOS",
+      "wp_arrowhead": "mim-transcription-translation",
+      "proposed_state_relation": "regulator_activity_to_target_abundance",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id46d698d1",
+          "complex_endpoint": false,
+          "arrowhead": "mim-transcription-translation"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR1",
+      "target": "PIK3CA",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR1",
+      "target": "PIK3CB",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR1",
+      "target": "PIK3CD",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR1",
+      "target": "PIK3R1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR1",
+      "target": "PIK3R2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR1",
+      "target": "PIK3R3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR2",
+      "target": "PIK3CA",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR2",
+      "target": "PIK3CB",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR2",
+      "target": "PIK3CD",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR2",
+      "target": "PIK3R1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR2",
+      "target": "PIK3R2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR2",
+      "target": "PIK3R3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR3",
+      "target": "PIK3CA",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR3",
+      "target": "PIK3CB",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR3",
+      "target": "PIK3CD",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR3",
+      "target": "PIK3R1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR3",
+      "target": "PIK3R2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "FGFR3",
+      "target": "PIK3R3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id481716d3",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:MIMP",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "MAPK1",
+      "target": "ELK1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id73ebe81b",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoNetworks",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:PhosphoSite_noref",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "MAPK3",
+      "target": "ELK1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id73ebe81b",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Kinexus_KEA",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:Macrophage",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:NetworKIN_KEA",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT1",
+      "target": "BAD",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id78efb7be",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT2",
+      "target": "BAD",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id78efb7be",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:Cui2007",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SignaLink3",
+        "OmniPath:TCRcuration_SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT3",
+      "target": "BAD",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id78efb7be",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:MIMP",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "ARAF",
+      "target": "MAP2K1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id88044fdf",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "ARAF",
+      "target": "MAP2K2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id88044fdf",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:DIP",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "BRAF",
+      "target": "MAP2K1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id88044fdf",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:IntAct",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Kinexus_KEA",
+        "OmniPath:MIMP",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:PhosphoSite",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "BRAF",
+      "target": "MAP2K2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id88044fdf",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:DIP",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:IntAct",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoNetworks",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "RAF1",
+      "target": "MAP2K1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id88044fdf",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "RAF1",
+      "target": "MAP2K2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id88044fdf",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:DIP",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NetPath",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "CTNNB1",
+      "target": "LEF1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation",
+        "beta_catenin_TCF_complex_requires_explicit_representation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id885e28eb",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "CTNNB1",
+      "target": "TCF7",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation",
+        "beta_catenin_TCF_complex_requires_explicit_representation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id885e28eb",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "CTNNB1",
+      "target": "TCF7L1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation",
+        "beta_catenin_TCF_complex_requires_explicit_representation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id885e28eb",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NetPath",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "CTNNB1",
+      "target": "TCF7L2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation",
+        "beta_catenin_TCF_complex_requires_explicit_representation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id885e28eb",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": false,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 0,
+      "source": "EGF",
+      "target": "EGFR",
+      "wp_arrowhead": "mim-binding",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "neutral_or_undirected",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:id8b18432b",
+          "complex_endpoint": false,
+          "arrowhead": "mim-binding"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:DIP",
+        "OmniPath:DOMINO",
+        "OmniPath:ELM",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:LMPID",
+        "OmniPath:Li2012",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "EGFR",
+      "target": "GRB2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ida8fd2f63",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIK3CA",
+      "target": "PIP3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "enzyme_activity_to_metabolite_state",
+      "flags": [
+        "complex_expanded_to_member_edges"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idb4a09427",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIK3CB",
+      "target": "PIP3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "enzyme_activity_to_metabolite_state",
+      "flags": [
+        "complex_expanded_to_member_edges"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idb4a09427",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIK3CD",
+      "target": "PIP3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "enzyme_activity_to_metabolite_state",
+      "flags": [
+        "complex_expanded_to_member_edges"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idb4a09427",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIK3R1",
+      "target": "PIP3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "enzyme_activity_to_metabolite_state",
+      "flags": [
+        "complex_expanded_to_member_edges"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idb4a09427",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIK3R2",
+      "target": "PIP3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "enzyme_activity_to_metabolite_state",
+      "flags": [
+        "complex_expanded_to_member_edges"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idb4a09427",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIK3R3",
+      "target": "PIP3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "enzyme_activity_to_metabolite_state",
+      "flags": [
+        "complex_expanded_to_member_edges"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idb4a09427",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:CancerCellMap",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEA",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Kinexus_KEA",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:MIMP",
+        "OmniPath:Macrophage",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:TCRcuration_SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "GSK3B",
+      "target": "CTNNB1",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idccfd7889",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "PTEN",
+      "target": "PIP3",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "enzyme_activity_to_metabolite_state",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idd46687e1",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Adhesome",
+        "OmniPath:BEL-Large-Corpus_ProtMapper",
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:KEA",
+        "OmniPath:Kinexus_KEA",
+        "OmniPath:MIMP",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "OmniPath:phosphoELM_KEA",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "ILK",
+      "target": "AKT1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ide3b8f43",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:KEA",
+        "OmniPath:Kinexus_KEA",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "ILK",
+      "target": "AKT2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ide3b8f43",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:KEA",
+        "OmniPath:Kinexus_KEA",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "ILK",
+      "target": "AKT3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ide3b8f43",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:Adhesome",
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:ELM",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:IntAct",
+        "OmniPath:KEA",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PDPK1",
+      "target": "AKT1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idecb3ea7e",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:KEA",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:RLIMS-P_ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SignaLink3",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PDPK1",
+      "target": "AKT2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idecb3ea7e",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:Cui2007",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD-phos",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:KEA",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:dbPTM",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PDPK1",
+      "target": "AKT3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:idecb3ea7e",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "EGFR",
+      "target": "PIK3CA",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ideffb182d",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "EGFR",
+      "target": "PIK3CB",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ideffb182d",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "EGFR",
+      "target": "PIK3CD",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ideffb182d",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:BioGRID",
+        "OmniPath:DOMINO",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:IntAct",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "EGFR",
+      "target": "PIK3R1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ideffb182d",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "EGFR",
+      "target": "PIK3R2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ideffb182d",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "EGFR",
+      "target": "PIK3R3",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "complex_expanded_to_member_edges",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ideffb182d",
+          "complex_endpoint": true,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Adhesome",
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:DOMINO",
+        "OmniPath:ELM",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:LMPID",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NetPath",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "GRB2",
+      "target": "SOS1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a3a9d",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:DOMINO",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:LMPID",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NetPath",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "GRB2",
+      "target": "SOS2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a3a9d",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:Adhesome",
+        "OmniPath:BioGRID",
+        "OmniPath:DIP",
+        "OmniPath:DOMINO",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "SOS1",
+      "target": "HRAS",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:acf70",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:HINT",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:SIGNOR",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "SOS1",
+      "target": "KRAS",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:acf70",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:SIGNOR",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "SOS1",
+      "target": "NRAS",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:acf70",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:HPRD",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:SIGNOR",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "SOS2",
+      "target": "HRAS",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:acf70",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:SIGNOR",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "SOS2",
+      "target": "KRAS",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:acf70",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "SOS2",
+      "target": "NRAS",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:acf70",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:DIP",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "HRAS",
+      "target": "ARAF",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:DIP",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "HRAS",
+      "target": "BRAF",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:CancerCellMap",
+        "OmniPath:DIP",
+        "OmniPath:DOMINO",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:InnateDB_SignaLink3",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "HRAS",
+      "target": "RAF1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "KRAS",
+      "target": "ARAF",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:HINT",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "KRAS",
+      "target": "BRAF",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:DIP",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:InnateDB",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetPath",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "KRAS",
+      "target": "RAF1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:HINT",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:SIGNOR",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "NRAS",
+      "target": "ARAF",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "NRAS",
+      "target": "BRAF",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:BioGRID",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:DIP",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:HuRI",
+        "OmniPath:IntAct",
+        "OmniPath:KEGG-MEDICUS",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "NRAS",
+      "target": "RAF1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:d85b8",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "PIP3",
+      "target": "ILK",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "metabolite_state_to_protein_activity",
+      "flags": [],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:fd518",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:ELM",
+        "OmniPath:HPRD",
+        "OmniPath:HPRD_KEA",
+        "OmniPath:HPRD_MIMP",
+        "OmniPath:KEA",
+        "OmniPath:MIMP",
+        "OmniPath:Macrophage",
+        "OmniPath:NCI-PID_ProtMapper",
+        "OmniPath:NetworKIN_KEA",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:PhosphoSite",
+        "OmniPath:PhosphoSite_KEA",
+        "OmniPath:PhosphoSite_MIMP",
+        "OmniPath:PhosphoSite_ProtMapper",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:hprd_ProtMapper",
+        "OmniPath:iPTMnet",
+        "OmniPath:phosphoELM_MIMP",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT1",
+      "target": "CASP9",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ca619",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT2",
+      "target": "CASP9",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ca619",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:Cui2007",
+        "OmniPath:ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT3",
+      "target": "CASP9",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:ca619",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT1",
+      "target": "FOXO3",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "sign_conflict_in_candidate_evidence",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:c4a25",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT2",
+      "target": "FOXO3",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:c4a25",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:ProtMapper",
+        "OmniPath:REACH_ProtMapper",
+        "OmniPath:Reactome_ProtMapper",
+        "OmniPath:SIGNOR",
+        "OmniPath:SIGNOR_ProtMapper",
+        "OmniPath:SignaLink3",
+        "OmniPath:TCRcuration_SignaLink3",
+        "OmniPath:Wang",
+        "OmniPath:iPTMnet",
+        "WikiPathways:WP4155"
+      ],
+      "sign": -1,
+      "source": "AKT3",
+      "target": "FOXO3",
+      "wp_arrowhead": "mim-inhibition",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:c4a25",
+          "complex_endpoint": false,
+          "arrowhead": "mim-inhibition"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:HPRD",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "BAK1",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "BAX",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:IntAct",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:ProtMapper",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Sparser_ProtMapper",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "CDKN1A",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "DDB2",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:HINT",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang",
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "GADD45A",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "GADD45B",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "GADD45G",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "WikiPathways:WP4155"
+      ],
+      "sign": 1,
+      "source": "TP53",
+      "target": "POLK",
+      "wp_arrowhead": "Arrow",
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "sign_conflict_in_candidate_evidence",
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [
+        {
+          "interaction_id": "interaction:a5e09",
+          "complex_endpoint": false,
+          "arrowhead": "Arrow"
+        }
+      ],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:Cui2007",
+        "OmniPath:DOMINO",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:IntAct",
+        "OmniPath:Li2012",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:SIGNOR",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:Wang"
+      ],
+      "sign": 1,
+      "source": "ERBB2",
+      "target": "GRB2",
+      "wp_arrowhead": null,
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:DOMINO",
+        "OmniPath:HINT",
+        "OmniPath:HPRD",
+        "OmniPath:IntAct",
+        "OmniPath:Lit-BM-17",
+        "OmniPath:NetPath",
+        "OmniPath:PhosphoPoint",
+        "OmniPath:SPIKE",
+        "OmniPath:SPIKE_LC",
+        "OmniPath:SignaLink3",
+        "OmniPath:Wang"
+      ],
+      "sign": 1,
+      "source": "ERBB2",
+      "target": "PIK3R1",
+      "wp_arrowhead": null,
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [],
+      "ready_for_activity_training": false
+    },
+    {
+      "directed": true,
+      "provenance": [
+        "OmniPath:ACSN",
+        "OmniPath:CA1",
+        "OmniPath:Cui2007",
+        "OmniPath:Wang"
+      ],
+      "sign": 1,
+      "source": "ERBB2",
+      "target": "PIK3CA",
+      "wp_arrowhead": null,
+      "proposed_state_relation": "unresolved_activity_abundance_or_complex_relation",
+      "flags": [
+        "mechanism_and_states_require_curation"
+      ],
+      "wp_interaction_support": [],
+      "ready_for_activity_training": false
+    }
+  ],
+  "summary": {
+    "core_edges": 109,
+    "flags": {
+      "mechanism_and_states_require_curation": 91,
+      "neutral_or_undirected": 3,
+      "complex_expanded_to_member_edges": 30,
+      "beta_catenin_TCF_complex_requires_explicit_representation": 4,
+      "sign_conflict_in_candidate_evidence": 2
+    }
+  }
+}

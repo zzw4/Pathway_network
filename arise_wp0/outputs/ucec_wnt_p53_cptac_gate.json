@@ -1,0 +1,105 @@
+{
+  "carrier_counts": {
+    "CTNNB1_ACTIVATING": 23,
+    "TP53_DAMAGING": 11
+  },
+  "notes": [
+    "CTNNB1 activation predicts higher total beta-catenin and/or lower destruction-site phosphorylation.",
+    "TP53 conservative damaging class predicts lower abundance of canonical p53 target proteins."
+  ],
+  "p53": {
+    "features": [
+      {
+        "beta": -0.33830024757354366,
+        "carriers": 7,
+        "ci95": [
+          -0.748437043850981,
+          0.07183654870389367
+        ],
+        "expected_sign": -1,
+        "feature": "CDKN1A_total_protein",
+        "n": 87,
+        "p_directional": 0.05297464884919657,
+        "p_two_sided": 0.10594929769839315,
+        "q_directional": 0.10594929769839315
+      },
+      {
+        "carriers": 0,
+        "error": "insufficient evaluable groups",
+        "expected_sign": -1,
+        "feature": "MDM2_total_protein",
+        "n": 0
+      },
+      {
+        "beta": -0.060837736484189255,
+        "carriers": 8,
+        "ci95": [
+          -0.3946624375740598,
+          0.2729869646056812
+        ],
+        "expected_sign": -1,
+        "feature": "BAX_total_protein",
+        "n": 91,
+        "p_directional": 0.3604737459764008,
+        "p_two_sided": 0.7209474919528016,
+        "q_directional": 0.3604737459764008
+      }
+    ],
+    "passes": false
+  },
+  "samples": 95,
+  "study": "ucec_cptac_2020",
+  "wnt": {
+    "destruction_site_module": {
+      "carriers": 0,
+      "error": "insufficient evaluable groups",
+      "expected_sign": -1,
+      "n": 0
+    },
+    "features": [
+      {
+        "beta": 0.5685758958330348,
+        "carriers": 23,
+        "ci95": [
+          0.3521991662118673,
+          0.7849526254542023
+        ],
+        "expected_sign": 1,
+        "feature": "CTNNB1_total_protein",
+        "n": 91,
+        "p_directional": 1.3008888344722267e-07,
+        "p_two_sided": 2.6017776689444534e-07,
+        "q_directional": 1.3008888344722267e-07
+      },
+      {
+        "carriers": 4,
+        "error": "insufficient evaluable groups",
+        "expected_sign": -1,
+        "feature": "CTNNB1_S33",
+        "n": 14
+      },
+      {
+        "carriers": 0,
+        "error": "insufficient evaluable groups",
+        "expected_sign": -1,
+        "feature": "CTNNB1_S37",
+        "n": 0
+      },
+      {
+        "carriers": 1,
+        "error": "insufficient evaluable groups",
+        "expected_sign": -1,
+        "feature": "CTNNB1_T41",
+        "n": 6
+      },
+      {
+        "carriers": 4,
+        "error": "insufficient evaluable groups",
+        "expected_sign": -1,
+        "feature": "CTNNB1_S45",
+        "n": 14
+      }
+    ],
+    "passes": true
+  }
+}

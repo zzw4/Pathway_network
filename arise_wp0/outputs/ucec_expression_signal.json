@@ -1,0 +1,175 @@
+{
+  "carrier_counts": {
+    "KRAS_CANONICAL": 84,
+    "PIK3CA_CANONICAL": 69,
+    "PIK3R1_LOF": 88,
+    "PTEN_BIALLELIC_PROXY": 21,
+    "PTEN_DEEPDEL": 19,
+    "PTEN_FUNCTIONAL": 265,
+    "PTEN_LOF": 248
+  },
+  "expected_checks": {
+    "KRAS_CANONICAL": "positive MAPK activity",
+    "PTEN loss definitions": "positive PI3K activity"
+  },
+  "footprint_coverage": {
+    "MAPK": {
+      "expression_samples": 527,
+      "genes": 100
+    },
+    "PI3K": {
+      "expression_samples": 527,
+      "genes": 98
+    }
+  },
+  "n_complete_cases": 505,
+  "results": {
+    "MAPK": {
+      "KRAS_CANONICAL": {
+        "adjusted_beta": 1.4171498760015568,
+        "adjusted_ci95": [
+          0.7923283030019572,
+          2.0419714490011565
+        ],
+        "adjusted_p": 8.774095978550644e-06,
+        "unadjusted_beta": 1.421410258992681,
+        "unadjusted_p": 9.139975550363505e-06
+      },
+      "PIK3CA_CANONICAL": {
+        "adjusted_beta": 0.2782082644313076,
+        "adjusted_ci95": [
+          -0.3812306370061371,
+          0.9376471658687522
+        ],
+        "adjusted_p": 0.40830392880116395,
+        "unadjusted_beta": 0.06833714547041703,
+        "unadjusted_p": 0.8373233286588463
+      },
+      "PIK3R1_LOF": {
+        "adjusted_beta": 0.3155771768099165,
+        "adjusted_ci95": [
+          -0.2878349900739795,
+          0.9189893436938125
+        ],
+        "adjusted_p": 0.30534564872107695,
+        "unadjusted_beta": 0.6948583103084414,
+        "unadjusted_p": 0.02754324454301197
+      },
+      "PTEN_BIALLELIC_PROXY": {
+        "adjusted_beta": -0.8175019546439022,
+        "adjusted_ci95": [
+          -1.5396144255271587,
+          -0.09538948376064582
+        ],
+        "adjusted_p": 0.02649550497858932,
+        "unadjusted_beta": -1.243363342779919,
+        "unadjusted_p": 0.00018471301302511062
+      },
+      "PTEN_DEEPDEL": {
+        "adjusted_beta": -0.8669681040144368,
+        "adjusted_ci95": [
+          -1.6257383044765343,
+          -0.10819790355233938
+        ],
+        "adjusted_p": 0.025126793869615565,
+        "unadjusted_beta": -1.2666210649627805,
+        "unadjusted_p": 0.0003786624654758194
+      },
+      "PTEN_FUNCTIONAL": {
+        "adjusted_beta": -1.03960786970391,
+        "adjusted_ci95": [
+          -1.5467848263209159,
+          -0.532430913086904
+        ],
+        "adjusted_p": 5.881364041366412e-05,
+        "unadjusted_beta": -0.4937765128287194,
+        "unadjusted_p": 0.03194733248452593
+      },
+      "PTEN_LOF": {
+        "adjusted_beta": -0.9881947299595478,
+        "adjusted_ci95": [
+          -1.5222730780039713,
+          -0.4541163819151244
+        ],
+        "adjusted_p": 0.0002873076613100431,
+        "unadjusted_beta": -0.3266492084531586,
+        "unadjusted_p": 0.15249668360206534
+      }
+    },
+    "PI3K": {
+      "KRAS_CANONICAL": {
+        "adjusted_beta": -0.3587533668429904,
+        "adjusted_ci95": [
+          -0.9037927849515062,
+          0.18628605126552533
+        ],
+        "adjusted_p": 0.1970233762886574,
+        "unadjusted_beta": -0.021663639394404514,
+        "unadjusted_p": 0.9397871121420593
+      },
+      "PIK3CA_CANONICAL": {
+        "adjusted_beta": 0.22500544857458749,
+        "adjusted_ci95": [
+          -0.36272302597183237,
+          0.8127339231210073
+        ],
+        "adjusted_p": 0.4530434089653538,
+        "unadjusted_beta": 0.04136701466574615,
+        "unadjusted_p": 0.8876545945187085
+      },
+      "PIK3R1_LOF": {
+        "adjusted_beta": 0.6918181551696015,
+        "adjusted_ci95": [
+          0.22255015497661057,
+          1.1610861553625926
+        ],
+        "adjusted_p": 0.003858843472685266,
+        "unadjusted_beta": 1.077141807681855,
+        "unadjusted_p": 1.9031698810666536e-06
+      },
+      "PTEN_BIALLELIC_PROXY": {
+        "adjusted_beta": 0.7049827000714387,
+        "adjusted_ci95": [
+          -0.25199568723406207,
+          1.6619610873769395
+        ],
+        "adjusted_p": 0.14877898135691991,
+        "unadjusted_beta": 0.27327396829730405,
+        "unadjusted_p": 0.5369776684624933
+      },
+      "PTEN_DEEPDEL": {
+        "adjusted_beta": 0.8102773333211138,
+        "adjusted_ci95": [
+          -0.20921086661070343,
+          1.8297655332529312
+        ],
+        "adjusted_p": 0.11929097656270186,
+        "unadjusted_beta": 0.3526072218709359,
+        "unadjusted_p": 0.45728354016373995
+      },
+      "PTEN_FUNCTIONAL": {
+        "adjusted_beta": 0.44331112710848425,
+        "adjusted_ci95": [
+          -0.024684245591806542,
+          0.911306499808775
+        ],
+        "adjusted_p": 0.0633700206544045,
+        "unadjusted_beta": 0.7302707970114397,
+        "unadjusted_p": 0.00032597083053915104
+      },
+      "PTEN_LOF": {
+        "adjusted_beta": 0.3342829020774221,
+        "adjusted_ci95": [
+          -0.1467450830480881,
+          0.8153108872029323
+        ],
+        "adjusted_p": 0.17318323352040887,
+        "unadjusted_beta": 0.6936254922862137,
+        "unadjusted_p": 0.0005402145546341853
+      }
+    }
+  },
+  "study": "ucec_tcga_pan_can_atlas_2018",
+  "top_genes_requested_per_pathway": 100,
+  "warning": "PROGENy is an RNA footprint feasibility check, not independent validation and not the proposed model endpoint."
+}
